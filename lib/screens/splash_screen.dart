@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
-import 'signin_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -30,10 +29,8 @@ class SplashScreenState extends State<SplashScreen>
     // Start the timer for the transition
     Timer(const Duration(seconds: 3), () {
       _animationController.forward().whenComplete(() {
-        Navigator.pushReplacement(
-          context,
-          MaterialPageRoute(builder: (context) => const SignInScreen()),
-        );
+        // Navigate to Sign In screen
+        Navigator.pushReplacementNamed(context, '/signin');
       });
     });
   }

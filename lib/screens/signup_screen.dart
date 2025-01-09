@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'signin_screen.dart'; // Import the SignInScreen
-import 'resetpassword_screen.dart'; // Import the ResetPasswordScreen
 import '../widgets/input_field.dart';
 import '../widgets/password_input_field.dart';
 import '../widgets/date_picker_field.dart';
@@ -122,12 +120,8 @@ class SignUpScreen extends StatelessWidget {
                     ),
                     TextButton(
                       onPressed: () {
-                        // Navigate to Sign Up screen
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => const SignInScreen()),
-                        );
+                        // Navigate to Sign In screen
+                        Navigator.pushReplacementNamed(context, '/signin');
                       },
                       child: const Text(
                         "Sign In",
@@ -143,12 +137,8 @@ class SignUpScreen extends StatelessWidget {
                 // Forgot Password
                 TextButton(
                   onPressed: () {
-                    // Navigate to Reser Password screen
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => const ResetPasswordScreen()),
-                    );
+                    // Navigate to Reset Password screen
+                    Navigator.pushReplacementNamed(context, '/reset-password');
                   },
                   child: const Text(
                     "Forgot Password?",

@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart'; // Import Font Awesome package
 import '../widgets/input_field.dart';
 import '../widgets/password_input_field.dart';
-import 'signup_screen.dart'; // Import the SignUpScreen
-import 'resetpassword_screen.dart'; // Import the ResetPasswordScreen
 
 class SignInScreen extends StatelessWidget {
   const SignInScreen({super.key});
@@ -194,12 +192,8 @@ class SignInScreen extends StatelessWidget {
                 // Forgot Password
                 TextButton(
                   onPressed: () {
-                    // Navigate to Reser Password screen
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => const ResetPasswordScreen()),
-                    );
+                    // Navigate to Reset Password screen
+                    Navigator.pushReplacementNamed(context, '/reset-password');
                   },
                   child: const Text(
                     "Forgot Password?",
@@ -225,11 +219,7 @@ class SignInScreen extends StatelessWidget {
                     TextButton(
                       onPressed: () {
                         // Navigate to Sign Up screen
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => const SignUpScreen()),
-                        );
+                        Navigator.pushReplacementNamed(context, '/signup');
                       },
                       child: const Text(
                         "Sign Up",

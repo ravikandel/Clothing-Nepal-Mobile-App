@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import '../widgets/input_field.dart';
-import 'signin_screen.dart'; // Import the SignInScreen
-import 'signup_screen.dart'; // Import the SignUpScreen
 
 class ResetPasswordScreen extends StatelessWidget {
   const ResetPasswordScreen({super.key});
@@ -115,11 +113,7 @@ class ResetPasswordScreen extends StatelessWidget {
                     TextButton(
                       onPressed: () {
                         // Navigate to Sign In screen
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => const SignInScreen()),
-                        );
+                        Navigator.pushReplacementNamed(context, '/signin');
                       },
                       child: const Text(
                         "Sign In",
@@ -146,11 +140,7 @@ class ResetPasswordScreen extends StatelessWidget {
                     TextButton(
                       onPressed: () {
                         // Navigate to Sign Up screen
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => const SignUpScreen()),
-                        );
+                        Navigator.pushReplacementNamed(context, '/signup');
                       },
                       child: const Text(
                         "Sign Up",
