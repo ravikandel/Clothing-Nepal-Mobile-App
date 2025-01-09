@@ -2,18 +2,18 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
 class DatePickerField extends StatefulWidget {
-  const DatePickerField({super.key});
+  final TextEditingController controller;
+
+  const DatePickerField({super.key, required this.controller});
 
   @override
   State<DatePickerField> createState() => _DatePickerFieldState();
 }
 
 class _DatePickerFieldState extends State<DatePickerField> {
-  final TextEditingController _controller = TextEditingController();
-
   @override
   void dispose() {
-    _controller.dispose();
+    widget.controller.dispose();
     super.dispose();
   }
 
@@ -22,7 +22,7 @@ class _DatePickerFieldState extends State<DatePickerField> {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 8.0),
       child: TextFormField(
-        controller: _controller,
+        controller: widget.controller,
         readOnly: true,
         validator: (value) {
           // Validate if a date is selected
@@ -76,7 +76,7 @@ class _DatePickerFieldState extends State<DatePickerField> {
             String formattedDate = DateFormat('dd/MM/yyyy').format(pickedDate);
 
             setState(() {
-              _controller.text = formattedDate;
+              widget.controller.text = formattedDate;
             });
           }
         },

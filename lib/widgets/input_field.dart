@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class InputField extends StatelessWidget {
+class InputField extends StatefulWidget {
   final IconData icon;
   final String hintText;
   final TextEditingController controller;
@@ -15,17 +15,34 @@ class InputField extends StatelessWidget {
   });
 
   @override
+  State<InputField> createState() => _InputFieldState();
+}
+
+class _InputFieldState extends State<InputField> {
+  String? _errorText;
+
+  @override
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 8.0),
       child: TextFormField(
-        controller: controller,
-        validator: validator,
+        controller: widget.controller,
+        validator: (value) {
+          if (_errorText == null && widget.validator != null) {
+            _errorText = widget.validator!(value);
+          }
+          return _errorText;
+        },
+        onChanged: (value) {
+          setState(() {
+            _errorText = null; // Clear error while typing
+          });
+        },
         decoration: InputDecoration(
-          labelText: hintText, // Add this for the label
+          labelText: widget.hintText, // Add this for the label
           floatingLabelBehavior: FloatingLabelBehavior.auto,
-          prefixIcon: Icon(icon, color: const Color(0xFF204E2D)),
-          hintText: hintText,
+          prefixIcon: Icon(widget.icon, color: const Color(0xFF204E2D)),
+          hintText: widget.hintText,
           hintStyle: const TextStyle(color: Colors.grey),
           border: OutlineInputBorder(
             borderRadius: BorderRadius.circular(10),
@@ -45,6 +62,7 @@ class InputField extends StatelessWidget {
           ),
           filled: true,
           fillColor: Colors.white,
+          errorText: _errorText, // Display error text
         ),
       ),
     );

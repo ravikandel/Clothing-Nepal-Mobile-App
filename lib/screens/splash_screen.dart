@@ -27,7 +27,7 @@ class SplashScreenState extends State<SplashScreen>
         Tween<double>(begin: 1.0, end: 0.0).animate(_animationController);
 
     // Start the timer for the transition
-    Timer(const Duration(seconds: 3), () {
+    Timer(const Duration(seconds: 2), () {
       _animationController.forward().whenComplete(() {
         // Navigate to Sign In screen
         Navigator.pushReplacementNamed(context, '/signin');
