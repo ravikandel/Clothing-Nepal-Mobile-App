@@ -21,7 +21,6 @@ class HomeScreenState extends State<HomeScreen> {
   }
 
   @override
-  @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color(0xFFFAFAFA),
@@ -44,7 +43,7 @@ class HomeScreenState extends State<HomeScreen> {
           ],
         ),
       ),
-      bottomNavigationBar: CustomBottomNavBar(currentIndex: 0),
+      //bottomNavigationBar: CustomBottomNavBar(currentIndex: 0),
     );
   }
 }

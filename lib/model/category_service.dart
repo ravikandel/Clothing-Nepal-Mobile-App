@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:demo/screens/category_product_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -43,42 +44,55 @@ class CategoryList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      height: 735.0,
-      child: FutureBuilder<List<Category>>(
-        future: CategoryService().getAllCategories(), // Fetch categories
-        builder: (context, snapshot) {
-          if (snapshot.connectionState == ConnectionState.waiting) {
-            return const Center(child: CircularProgressIndicator());
-          }
-          if (snapshot.hasError) {
-            return Center(child: Text('Error: ${snapshot.error}'));
-          }
-          if (!snapshot.hasData || snapshot.data!.isEmpty) {
-            return const Center(child: Text('No categories available.'));
-          }
+    return FutureBuilder<List<Category>>(
+      future: CategoryService().getAllCategories(), // Fetch categories
+      builder: (context, snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return const Center(child: CircularProgressIndicator());
+        }
+        if (snapshot.hasError) {
+          return Center(child: Text('Error: ${snapshot.error}'));
+        }
+        if (!snapshot.hasData || snapshot.data!.isEmpty) {
+          return const Center(child: Text('No categories available.'));
+        }
 
-          List<Category> categories = snapshot.data!;
+        List<Category> categories = snapshot.data!;
 
-          return ListView.builder(
-            scrollDirection: Axis.vertical,
-            itemCount: categories.length,
-            itemBuilder: (context, index) {
-              final category = categories[index];
-              return Container(
+        return ListView.builder(
+          shrinkWrap: true, // Allows ListView to size itself
+          physics: const AlwaysScrollableScrollPhysics(), // Enable scrolling
+          itemCount: categories.length,
+          itemBuilder: (context, index) {
+            final category = categories[index];
+            return GestureDetector(
+              onTap: () {
+                // Navigate to the CategoryProductsScreen
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => CategoryProductsScreen(
+                      categoryId: category.categoryId,
+                      categoryName: category.categoryName,
+                    ),
+                  ),
+                );
+              },
+              child: Container(
                 width: 180,
-                margin: const EdgeInsets.symmetric(horizontal: 10.0),
+                margin:
+                    const EdgeInsets.symmetric(horizontal: 10.0, vertical: 0.0),
                 child: CategoryCard(
                   id: category.categoryId,
                   title: category.categoryName,
                   subtitle: 'Up to 70% OFF', // Placeholder subtitle
                   imageUrl: category.categoryImage,
                 ),
-              );
-            },
-          );
-        },
-      ),
+              ),
+            );
+          },
+        );
+      },
     );
   }
 }

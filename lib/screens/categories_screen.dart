@@ -12,10 +12,7 @@ class CategoriesScreen extends StatefulWidget {
 
 class CategoriesScreenState extends State<CategoriesScreen> {
   Future<void> _refreshData() async {
-    // Simulate a network request or refresh action here
     await Future.delayed(Duration(seconds: 2));
-
-    // Check if the widget is still mounted before showing the snackbar
     if (mounted) {
       UIUtils.showSnackbar(context, 'Page Refreshed!', Colors.green);
     }
@@ -28,11 +25,12 @@ class CategoriesScreenState extends State<CategoriesScreen> {
       appBar: CustomAppBar(title: 'Clothing Nepal'),
       body: RefreshIndicator(
         onRefresh: _refreshData, // Call the refresh function on swipe down
-        child: ListView(
-          children: [CategoryList()],
+        child: SizedBox.expand(
+          // Ensures the child takes full available space
+          child: CategoryList(),
         ),
       ),
-      bottomNavigationBar: CustomBottomNavBar(currentIndex: 1),
+      //bottomNavigationBar: CustomBottomNavBar(currentIndex: 1),
     );
   }
 }
