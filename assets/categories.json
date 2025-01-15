@@ -1,0 +1,37 @@
+[
+    {
+        "categoryid": 1,
+        "categoryname": "Men's",
+        "categoryimage": "assets/images/category/category1.jpg"
+    },
+    {
+        "categoryid": 2,
+        "categoryname": "Women's",
+        "categoryimage": "assets/images/category/category2.jpg"
+    },
+    {
+        "categoryid": 3,
+        "categoryname": "Kids",
+        "categoryimage": "assets/images/category/category3.jpg"
+    },
+    {
+        "categoryid": 4,
+        "categoryname": "Wool",
+        "categoryimage": "assets/images/category/category4.jpg"
+    },
+    {
+        "categoryid": 5,
+        "categoryname": "Hemp",
+        "categoryimage": "assets/images/category/category5.jpg"
+    },
+    {
+        "categoryid": 5,
+        "categoryname": "Bag",
+        "categoryimage": "assets/images/category/category5.jpg"
+    },
+    {
+        "categoryid": 6,
+        "categoryname": "Shawl",
+        "categoryimage": "assets/images/category/category6.jpg"
+    }
+]

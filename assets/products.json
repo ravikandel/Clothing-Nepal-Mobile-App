@@ -1,0 +1,2836 @@
+[
+    {
+        "productid": 1,
+        "productname": "Hemp Sweater",
+        "productcode": "CN-STSD-1",
+        "categoryid": 5,
+        "categoryname": "Hemp",
+        "tags": [
+            {
+                "tagid": 1,
+                "tagname": "Top Picks"
+            },
+            {
+                "tagid": 5,
+                "tagname": "Clearance Sale"
+            },
+            {
+                "tagid": 4,
+                "tagname": "Summer Sale"
+            }
+        ],
+        "product_images": [
+            "product1_1.jpg",
+            "product1_2.jpg"
+        ],
+        "reviewcount": 2,
+        "rating": 4,
+        "actualprice": 0.0,
+        "discountprice": 1.0,
+        "shortdescription": "Fashionable Lightweight Warm",
+        "fulldescription": "This Hemp Sweater is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            },
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            }
+        ]
+    },
+    {
+        "productid": 2,
+        "productname": "Duffel Bag",
+        "productcode": "CN-STSD-2",
+        "categoryid": 6,
+        "categoryname": "Bag",
+        "tags": [
+            {
+                "tagid": 1,
+                "tagname": "Top Picks"
+            }
+        ],
+        "product_images": [
+            "product2_1.jpg"
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 23.04,
+        "discountprice": 28.19,
+        "shortdescription": "Stylish Durable Comfortable",
+        "fulldescription": "This Duffel Bag is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            },
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            }
+        ]
+    },
+    {
+        "productid": 3,
+        "productname": "Wool Jacket",
+        "productcode": "CN-STSD-3",
+        "categoryid": 4,
+        "categoryname": "Wool",
+        "tags": [
+            {
+                "tagid": 5,
+                "tagname": "Clearance Sale"
+            },
+            {
+                "tagid": 3,
+                "tagname": "Sale Under 20$"
+            },
+            {
+                "tagid": 2,
+                "tagname": "New Fashion"
+            }
+        ],
+        "product_images": [
+            "product3_1.jpg"
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 53.6,
+        "discountprice": 16.45,
+        "shortdescription": "Stylish Durable Warm",
+        "fulldescription": "This Wool Jacket is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            },
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            }
+        ]
+    },
+    {
+        "productid": 4,
+        "productname": "Hemp Shoes 3",
+        "productcode": "CN-STSD-4",
+        "categoryid": 5,
+        "categoryname": "Hemp",
+        "tags": [
+            {
+                "tagid": 2,
+                "tagname": "New Fashion"
+            },
+            {
+                "tagid": 4,
+                "tagname": "Summer Sale"
+            }
+        ],
+        "product_images": [
+            "product52_1.jpg"
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 65.22,
+        "discountprice": 27.08,
+        "shortdescription": "Durable Warm Fashionable",
+        "fulldescription": "This Hemp Shoes is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            },
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            }
+        ]
+    },
+    {
+        "productid": 5,
+        "productname": "Women's Dress",
+        "productcode": "CN-STSD-5",
+        "categoryid": 2,
+        "categoryname": "Womens",
+        "tags": [
+            {
+                "tagid": 1,
+                "tagname": "Top Picks"
+            },
+            {
+                "tagid": 4,
+                "tagname": "Summer Sale"
+            },
+            {
+                "tagid": 3,
+                "tagname": "Sale Under 20$"
+            }
+        ],
+        "product_images": [
+            "product8_1.jpg"
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 79.12,
+        "discountprice": 16.29,
+        "shortdescription": "Fashionable Casual Lightweight",
+        "fulldescription": "This Women's Dress is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            },
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            }
+        ]
+    },
+    {
+        "productid": 6,
+        "productname": "Hemp Jacket",
+        "productcode": "CN-STSD-6",
+        "categoryid": 5,
+        "categoryname": "Hemp",
+        "tags": [
+            {
+                "tagid": 3,
+                "tagname": "Sale Under 20$"
+            },
+            {
+                "tagid": 4,
+                "tagname": "Summer Sale"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 97.72,
+        "discountprice": 14.91,
+        "shortdescription": "Lightweight Warm Fashionable",
+        "fulldescription": "This Hemp Jacket is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            },
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            }
+        ]
+    },
+    {
+        "productid": 7,
+        "productname": "Kids Sweater",
+        "productcode": "CN-STSD-7",
+        "categoryid": 3,
+        "categoryname": "Kids",
+        "tags": [
+            {
+                "tagid": 2,
+                "tagname": "New Fashion"
+            },
+            {
+                "tagid": 3,
+                "tagname": "Sale Under 20$"
+            }
+        ],
+        "product_images": [
+            "product7_1.jpg"
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 85.03,
+        "discountprice": 19.79,
+        "shortdescription": "Casual Fashionable Lightweight",
+        "fulldescription": "This Kids Sweater is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            },
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            }
+        ]
+    },
+    {
+        "productid": 8,
+        "productname": "Women's Dress 2",
+        "productcode": "CN-STSD-8",
+        "categoryid": 2,
+        "categoryname": "Womens",
+        "tags": [
+            {
+                "tagid": 2,
+                "tagname": "New Fashion"
+            },
+            {
+                "tagid": 4,
+                "tagname": "Summer Sale"
+            },
+            {
+                "tagid": 3,
+                "tagname": "Sale Under 20$"
+            }
+        ],
+        "product_images": [
+            "product8_1.jpg"
+        ],
+        "reviewcount": 2,
+        "rating": 4,
+        "actualprice": 99.62,
+        "discountprice": 14.78,
+        "shortdescription": "Fashionable Comfortable Breathable",
+        "fulldescription": "This Women's Dress is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            },
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            }
+        ]
+    },
+    {
+        "productid": 9,
+        "productname": "Hemp Shorts",
+        "productcode": "CN-STSD-9",
+        "categoryid": 5,
+        "categoryname": "Hemp",
+        "tags": [
+            {
+                "tagid": 3,
+                "tagname": "Sale Under 20$"
+            },
+            {
+                "tagid": 5,
+                "tagname": "Clearance Sale"
+            },
+            {
+                "tagid": 4,
+                "tagname": "Summer Sale"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 28.84,
+        "discountprice": 12.76,
+        "shortdescription": "Comfortable Warm Durable",
+        "fulldescription": "This Hemp Shorts is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            },
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            }
+        ]
+    },
+    {
+        "productid": 10,
+        "productname": "Handbag",
+        "productcode": "CN-STSD-10",
+        "categoryid": 6,
+        "categoryname": "Bag",
+        "tags": [
+            {
+                "tagid": 1,
+                "tagname": "Top Picks"
+            },
+            {
+                "tagid": 4,
+                "tagname": "Summer Sale"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 98.05,
+        "discountprice": 35.32,
+        "shortdescription": "Comfortable Soft Trendy",
+        "fulldescription": "This Handbag is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            },
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            }
+        ]
+    },
+    {
+        "productid": 11,
+        "productname": "Women's Blouse",
+        "productcode": "CN-STSD-11",
+        "categoryid": 2,
+        "categoryname": "Womens",
+        "tags": [
+            {
+                "tagid": 4,
+                "tagname": "Summer Sale"
+            },
+            {
+                "tagid": 5,
+                "tagname": "Clearance Sale"
+            },
+            {
+                "tagid": 1,
+                "tagname": "Top Picks"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 64.65,
+        "discountprice": 42.14,
+        "shortdescription": "Fashionable Warm Comfortable",
+        "fulldescription": "This Women's Blouse is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            },
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            }
+        ]
+    },
+    {
+        "productid": 12,
+        "productname": "Wool Coat",
+        "productcode": "CN-STSD-12",
+        "categoryid": 4,
+        "categoryname": "Wool",
+        "tags": [
+            {
+                "tagid": 2,
+                "tagname": "New Fashion"
+            },
+            {
+                "tagid": 3,
+                "tagname": "Sale Under 20$"
+            },
+            {
+                "tagid": 1,
+                "tagname": "Top Picks"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 88.89,
+        "discountprice": 18.18,
+        "shortdescription": "Comfortable Stylish Warm",
+        "fulldescription": "This Wool Coat is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            },
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            }
+        ]
+    },
+    {
+        "productid": 13,
+        "productname": "Linen Shawl",
+        "productcode": "CN-STSD-13",
+        "categoryid": 7,
+        "categoryname": "Shawl",
+        "tags": [
+            {
+                "tagid": 3,
+                "tagname": "Sale Under 20$"
+            },
+            {
+                "tagid": 1,
+                "tagname": "Top Picks"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 72.23,
+        "discountprice": 10.81,
+        "shortdescription": "Lightweight Warm Comfortable",
+        "fulldescription": "This Linen Shawl is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            },
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            }
+        ]
+    },
+    {
+        "productid": 14,
+        "productname": "Kids Jacket",
+        "productcode": "CN-STSD-14",
+        "categoryid": 3,
+        "categoryname": "Kids",
+        "tags": [
+            {
+                "tagid": 4,
+                "tagname": "Summer Sale"
+            },
+            {
+                "tagid": 1,
+                "tagname": "Top Picks"
+            },
+            {
+                "tagid": 5,
+                "tagname": "Clearance Sale"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 4,
+        "actualprice": 44.84,
+        "discountprice": 37.51,
+        "shortdescription": "Breathable Stylish Casual",
+        "fulldescription": "This Kids Jacket is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            },
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            }
+        ]
+    },
+    {
+        "productid": 15,
+        "productname": "Kids Pants",
+        "productcode": "CN-STSD-15",
+        "categoryid": 3,
+        "categoryname": "Kids",
+        "tags": [
+            {
+                "tagid": 3,
+                "tagname": "Sale Under 20$"
+            },
+            {
+                "tagid": 2,
+                "tagname": "New Fashion"
+            },
+            {
+                "tagid": 1,
+                "tagname": "Top Picks"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 55.27,
+        "discountprice": 16.74,
+        "shortdescription": "Durable Casual Soft",
+        "fulldescription": "This Kids Pants is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            },
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            }
+        ]
+    },
+    {
+        "productid": 16,
+        "productname": "Wool Shawl",
+        "productcode": "CN-STSD-16",
+        "categoryid": 7,
+        "categoryname": "Shawl",
+        "tags": [
+            {
+                "tagid": 3,
+                "tagname": "Sale Under 20$"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 94.45,
+        "discountprice": 13.12,
+        "shortdescription": "Breathable Lightweight Soft",
+        "fulldescription": "This Wool Shawl is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            },
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            }
+        ]
+    },
+    {
+        "productid": 17,
+        "productname": "Duffel Bag",
+        "productcode": "CN-STSD-17",
+        "categoryid": 6,
+        "categoryname": "Bag",
+        "tags": [
+            {
+                "tagid": 5,
+                "tagname": "Clearance Sale"
+            },
+            {
+                "tagid": 4,
+                "tagname": "Summer Sale"
+            },
+            {
+                "tagid": 1,
+                "tagname": "Top Picks"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 4,
+        "actualprice": 57.96,
+        "discountprice": 20.36,
+        "shortdescription": "Soft Trendy Durable",
+        "fulldescription": "This Duffel Bag is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            },
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            }
+        ]
+    },
+    {
+        "productid": 18,
+        "productname": "Men's Shoes",
+        "productcode": "CN-STSD-18",
+        "categoryid": 1,
+        "categoryname": "Mens",
+        "tags": [
+            {
+                "tagid": 3,
+                "tagname": "Sale Under 20$"
+            },
+            {
+                "tagid": 4,
+                "tagname": "Summer Sale"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 98.46,
+        "discountprice": 10.8,
+        "shortdescription": "Breathable Lightweight Comfortable",
+        "fulldescription": "This Men's Shoes is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            },
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            }
+        ]
+    },
+    {
+        "productid": 19,
+        "productname": "Wool Sweater",
+        "productcode": "CN-STSD-19",
+        "categoryid": 4,
+        "categoryname": "Wool",
+        "tags": [
+            {
+                "tagid": 2,
+                "tagname": "New Fashion"
+            },
+            {
+                "tagid": 1,
+                "tagname": "Top Picks"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 55.25,
+        "discountprice": 32.79,
+        "shortdescription": "Comfortable Stylish Breathable",
+        "fulldescription": "This Wool Sweater is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            },
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            }
+        ]
+    },
+    {
+        "productid": 20,
+        "productname": "Tote Bag",
+        "productcode": "CN-STSD-20",
+        "categoryid": 6,
+        "categoryname": "Bag",
+        "tags": [
+            {
+                "tagid": 3,
+                "tagname": "Sale Under 20$"
+            },
+            {
+                "tagid": 1,
+                "tagname": "Top Picks"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 75.2,
+        "discountprice": 14.06,
+        "shortdescription": "Casual Soft Trendy",
+        "fulldescription": "This Tote Bag is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            },
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            }
+        ]
+    },
+    {
+        "productid": 21,
+        "productname": "Women's Blouse",
+        "productcode": "CN-STSD-21",
+        "categoryid": 2,
+        "categoryname": "Womens",
+        "tags": [
+            {
+                "tagid": 1,
+                "tagname": "Top Picks"
+            },
+            {
+                "tagid": 3,
+                "tagname": "Sale Under 20$"
+            },
+            {
+                "tagid": 2,
+                "tagname": "New Fashion"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 98.52,
+        "discountprice": 16.55,
+        "shortdescription": "Comfortable Stylish Lightweight",
+        "fulldescription": "This Women's Blouse is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            },
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            }
+        ]
+    },
+    {
+        "productid": 22,
+        "productname": "Backpack",
+        "productcode": "CN-STSD-22",
+        "categoryid": 6,
+        "categoryname": "Bag",
+        "tags": [
+            {
+                "tagid": 1,
+                "tagname": "Top Picks"
+            },
+            {
+                "tagid": 4,
+                "tagname": "Summer Sale"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 91.0,
+        "discountprice": 28.78,
+        "shortdescription": "Warm Fashionable Trendy",
+        "fulldescription": "This Backpack is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            },
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            }
+        ]
+    },
+    {
+        "productid": 23,
+        "productname": "Wool Sweater",
+        "productcode": "CN-STSD-23",
+        "categoryid": 4,
+        "categoryname": "Wool",
+        "tags": [
+            {
+                "tagid": 4,
+                "tagname": "Summer Sale"
+            },
+            {
+                "tagid": 2,
+                "tagname": "New Fashion"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 91.72,
+        "discountprice": 11.53,
+        "shortdescription": "Breathable Soft Casual",
+        "fulldescription": "This Wool Sweater is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            },
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            }
+        ]
+    },
+    {
+        "productid": 24,
+        "productname": "Cotton Shawl",
+        "productcode": "CN-STSD-24",
+        "categoryid": 7,
+        "categoryname": "Shawl",
+        "tags": [
+            {
+                "tagid": 5,
+                "tagname": "Clearance Sale"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 99.93,
+        "discountprice": 14.01,
+        "shortdescription": "Stylish Comfortable Breathable",
+        "fulldescription": "This Cotton Shawl is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            },
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            }
+        ]
+    },
+    {
+        "productid": 25,
+        "productname": "Messenger Bag",
+        "productcode": "CN-STSD-25",
+        "categoryid": 6,
+        "categoryname": "Bag",
+        "tags": [
+            {
+                "tagid": 1,
+                "tagname": "Top Picks"
+            },
+            {
+                "tagid": 3,
+                "tagname": "Sale Under 20$"
+            },
+            {
+                "tagid": 5,
+                "tagname": "Clearance Sale"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 60.69,
+        "discountprice": 13.68,
+        "shortdescription": "Stylish Lightweight Comfortable",
+        "fulldescription": "This Messenger Bag is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            },
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            }
+        ]
+    },
+    {
+        "productid": 26,
+        "productname": "Men's Socks",
+        "productcode": "CN-STSD-26",
+        "categoryid": 1,
+        "categoryname": "Mens",
+        "tags": [
+            {
+                "tagid": 5,
+                "tagname": "Clearance Sale"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 96.66,
+        "discountprice": 32.33,
+        "shortdescription": "Lightweight Trendy Soft",
+        "fulldescription": "This Men's Socks is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            },
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            }
+        ]
+    },
+    {
+        "productid": 27,
+        "productname": "Hemp Jacket",
+        "productcode": "CN-STSD-27",
+        "categoryid": 5,
+        "categoryname": "Hemp",
+        "tags": [
+            {
+                "tagid": 3,
+                "tagname": "Sale Under 20$"
+            },
+            {
+                "tagid": 1,
+                "tagname": "Top Picks"
+            },
+            {
+                "tagid": 5,
+                "tagname": "Clearance Sale"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 4,
+        "actualprice": 93.03,
+        "discountprice": 17.85,
+        "shortdescription": "Stylish Casual Comfortable",
+        "fulldescription": "This Hemp Jacket is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            },
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            }
+        ]
+    },
+    {
+        "productid": 28,
+        "productname": "Men's Socks",
+        "productcode": "CN-STSD-28",
+        "categoryid": 1,
+        "categoryname": "Mens",
+        "tags": [
+            {
+                "tagid": 3,
+                "tagname": "Sale Under 20$"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 4,
+        "actualprice": 90.59,
+        "discountprice": 15.66,
+        "shortdescription": "Breathable Soft Warm",
+        "fulldescription": "This Men's Socks is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            },
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            }
+        ]
+    },
+    {
+        "productid": 29,
+        "productname": "Hemp Jacket",
+        "productcode": "CN-STSD-29",
+        "categoryid": 5,
+        "categoryname": "Hemp",
+        "tags": [
+            {
+                "tagid": 2,
+                "tagname": "New Fashion"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 36.8,
+        "discountprice": 29.37,
+        "shortdescription": "Stylish Fashionable Lightweight",
+        "fulldescription": "This Hemp Jacket is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            },
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            }
+        ]
+    },
+    {
+        "productid": 30,
+        "productname": "Kids Socks",
+        "productcode": "CN-STSD-30",
+        "categoryid": 3,
+        "categoryname": "Kids",
+        "tags": [
+            {
+                "tagid": 4,
+                "tagname": "Summer Sale"
+            },
+            {
+                "tagid": 3,
+                "tagname": "Sale Under 20$"
+            },
+            {
+                "tagid": 2,
+                "tagname": "New Fashion"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 77.53,
+        "discountprice": 16.64,
+        "shortdescription": "Lightweight Breathable Warm",
+        "fulldescription": "This Kids Socks is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            },
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            }
+        ]
+    },
+    {
+        "productid": 31,
+        "productname": "Cashmere Shawl",
+        "productcode": "CN-STSD-31",
+        "categoryid": 7,
+        "categoryname": "Shawl",
+        "tags": [
+            {
+                "tagid": 5,
+                "tagname": "Clearance Sale"
+            },
+            {
+                "tagid": 3,
+                "tagname": "Sale Under 20$"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 73.59,
+        "discountprice": 11.21,
+        "shortdescription": "Trendy Comfortable Breathable",
+        "fulldescription": "This Cashmere Shawl is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            },
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            }
+        ]
+    },
+    {
+        "productid": 32,
+        "productname": "Wool Socks",
+        "productcode": "CN-STSD-32",
+        "categoryid": 4,
+        "categoryname": "Wool",
+        "tags": [
+            {
+                "tagid": 2,
+                "tagname": "New Fashion"
+            },
+            {
+                "tagid": 3,
+                "tagname": "Sale Under 20$"
+            },
+            {
+                "tagid": 5,
+                "tagname": "Clearance Sale"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 36.08,
+        "discountprice": 10.03,
+        "shortdescription": "Soft Lightweight Comfortable",
+        "fulldescription": "This Wool Socks is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            },
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            }
+        ]
+    },
+    {
+        "productid": 33,
+        "productname": "Kids Pants",
+        "productcode": "CN-STSD-33",
+        "categoryid": 3,
+        "categoryname": "Kids",
+        "tags": [
+            {
+                "tagid": 1,
+                "tagname": "Top Picks"
+            },
+            {
+                "tagid": 5,
+                "tagname": "Clearance Sale"
+            },
+            {
+                "tagid": 4,
+                "tagname": "Summer Sale"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 93.03,
+        "discountprice": 33.65,
+        "shortdescription": "Durable Casual Fashionable",
+        "fulldescription": "This Kids Pants is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            },
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            }
+        ]
+    },
+    {
+        "productid": 34,
+        "productname": "Backpack",
+        "productcode": "CN-STSD-34",
+        "categoryid": 6,
+        "categoryname": "Bag",
+        "tags": [
+            {
+                "tagid": 1,
+                "tagname": "Top Picks"
+            },
+            {
+                "tagid": 5,
+                "tagname": "Clearance Sale"
+            },
+            {
+                "tagid": 4,
+                "tagname": "Summer Sale"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 91.46,
+        "discountprice": 10.57,
+        "shortdescription": "Fashionable Warm Trendy",
+        "fulldescription": "This Backpack is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            },
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            }
+        ]
+    },
+    {
+        "productid": 35,
+        "productname": "Kids Pants",
+        "productcode": "CN-STSD-35",
+        "categoryid": 3,
+        "categoryname": "Kids",
+        "tags": [
+            {
+                "tagid": 2,
+                "tagname": "New Fashion"
+            },
+            {
+                "tagid": 1,
+                "tagname": "Top Picks"
+            },
+            {
+                "tagid": 5,
+                "tagname": "Clearance Sale"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 4,
+        "actualprice": 69.22,
+        "discountprice": 33.43,
+        "shortdescription": "Warm Durable Soft",
+        "fulldescription": "This Kids Pants is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            },
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            }
+        ]
+    },
+    {
+        "productid": 36,
+        "productname": "Kids Hat",
+        "productcode": "CN-STSD-36",
+        "categoryid": 3,
+        "categoryname": "Kids",
+        "tags": [
+            {
+                "tagid": 3,
+                "tagname": "Sale Under 20$"
+            },
+            {
+                "tagid": 4,
+                "tagname": "Summer Sale"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 96.62,
+        "discountprice": 19.94,
+        "shortdescription": "Casual Comfortable Breathable",
+        "fulldescription": "This Kids Hat is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            },
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            }
+        ]
+    },
+    {
+        "productid": 37,
+        "productname": "Men's Hat",
+        "productcode": "CN-STSD-37",
+        "categoryid": 1,
+        "categoryname": "Mens",
+        "tags": [
+            {
+                "tagid": 1,
+                "tagname": "Top Picks"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 4,
+        "actualprice": 25.88,
+        "discountprice": 13.18,
+        "shortdescription": "Stylish Warm Durable",
+        "fulldescription": "This Men's Hat is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            },
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            }
+        ]
+    },
+    {
+        "productid": 38,
+        "productname": "Cashmere Shawl",
+        "productcode": "CN-STSD-38",
+        "categoryid": 7,
+        "categoryname": "Shawl",
+        "tags": [
+            {
+                "tagid": 5,
+                "tagname": "Clearance Sale"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 78.07,
+        "discountprice": 37.76,
+        "shortdescription": "Breathable Soft Durable",
+        "fulldescription": "This Cashmere Shawl is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            },
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            }
+        ]
+    },
+    {
+        "productid": 39,
+        "productname": "Men's Sweater",
+        "productcode": "CN-STSD-39",
+        "categoryid": 1,
+        "categoryname": "Mens",
+        "tags": [
+            {
+                "tagid": 5,
+                "tagname": "Clearance Sale"
+            },
+            {
+                "tagid": 3,
+                "tagname": "Sale Under 20$"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 83.6,
+        "discountprice": 13.68,
+        "shortdescription": "Fashionable Lightweight Warm",
+        "fulldescription": "This Men's Sweater is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            },
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            }
+        ]
+    },
+    {
+        "productid": 40,
+        "productname": "Messenger Bag",
+        "productcode": "CN-STSD-40",
+        "categoryid": 6,
+        "categoryname": "Bag",
+        "tags": [
+            {
+                "tagid": 2,
+                "tagname": "New Fashion"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 4,
+        "actualprice": 33.02,
+        "discountprice": 41.02,
+        "shortdescription": "Lightweight Comfortable Casual",
+        "fulldescription": "This Messenger Bag is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            },
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            }
+        ]
+    },
+    {
+        "productid": 41,
+        "productname": "Wool Scarf",
+        "productcode": "CN-STSD-41",
+        "categoryid": 4,
+        "categoryname": "Wool",
+        "tags": [
+            {
+                "tagid": 2,
+                "tagname": "New Fashion"
+            },
+            {
+                "tagid": 1,
+                "tagname": "Top Picks"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 69.3,
+        "discountprice": 40.89,
+        "shortdescription": "Warm Breathable Lightweight",
+        "fulldescription": "This Wool Scarf is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            },
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            }
+        ]
+    },
+    {
+        "productid": 42,
+        "productname": "Cotton Shawl",
+        "productcode": "CN-STSD-42",
+        "categoryid": 7,
+        "categoryname": "Shawl",
+        "tags": [
+            {
+                "tagid": 1,
+                "tagname": "Top Picks"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 38.48,
+        "discountprice": 35.75,
+        "shortdescription": "Stylish Lightweight Fashionable",
+        "fulldescription": "This Cotton Shawl is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            },
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            }
+        ]
+    },
+    {
+        "productid": 43,
+        "productname": "Kids Sweater",
+        "productcode": "CN-STSD-43",
+        "categoryid": 3,
+        "categoryname": "Kids",
+        "tags": [
+            {
+                "tagid": 2,
+                "tagname": "New Fashion"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 63.33,
+        "discountprice": 24.55,
+        "shortdescription": "Stylish Breathable Trendy",
+        "fulldescription": "This Kids Sweater is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            },
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            }
+        ]
+    },
+    {
+        "productid": 44,
+        "productname": "Hemp Scarf",
+        "productcode": "CN-STSD-44",
+        "categoryid": 5,
+        "categoryname": "Hemp",
+        "tags": [
+            {
+                "tagid": 5,
+                "tagname": "Clearance Sale"
+            },
+            {
+                "tagid": 3,
+                "tagname": "Sale Under 20$"
+            },
+            {
+                "tagid": 4,
+                "tagname": "Summer Sale"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 4,
+        "actualprice": 29.97,
+        "discountprice": 16.14,
+        "shortdescription": "Stylish Lightweight Casual",
+        "fulldescription": "This Hemp Scarf is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            },
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            }
+        ]
+    },
+    {
+        "productid": 45,
+        "productname": "Kids Jacket",
+        "productcode": "CN-STSD-45",
+        "categoryid": 3,
+        "categoryname": "Kids",
+        "tags": [
+            {
+                "tagid": 1,
+                "tagname": "Top Picks"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 4,
+        "actualprice": 94.98,
+        "discountprice": 46.24,
+        "shortdescription": "Trendy Fashionable Warm",
+        "fulldescription": "This Kids Jacket is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            },
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            }
+        ]
+    },
+    {
+        "productid": 46,
+        "productname": "Women's Skirt",
+        "productcode": "CN-STSD-46",
+        "categoryid": 2,
+        "categoryname": "Womens",
+        "tags": [
+            {
+                "tagid": 5,
+                "tagname": "Clearance Sale"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 4,
+        "actualprice": 59.9,
+        "discountprice": 39.99,
+        "shortdescription": "Soft Comfortable Breathable",
+        "fulldescription": "This Women's Skirt is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            },
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            }
+        ]
+    },
+    {
+        "productid": 47,
+        "productname": "Messenger Bag",
+        "productcode": "CN-STSD-47",
+        "categoryid": 6,
+        "categoryname": "Bag",
+        "tags": [
+            {
+                "tagid": 3,
+                "tagname": "Sale Under 20$"
+            },
+            {
+                "tagid": 1,
+                "tagname": "Top Picks"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 4,
+        "actualprice": 72.89,
+        "discountprice": 19.78,
+        "shortdescription": "Stylish Soft Comfortable",
+        "fulldescription": "This Messenger Bag is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            },
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            }
+        ]
+    },
+    {
+        "productid": 48,
+        "productname": "Women's Skirt",
+        "productcode": "CN-STSD-48",
+        "categoryid": 2,
+        "categoryname": "Womens",
+        "tags": [
+            {
+                "tagid": 1,
+                "tagname": "Top Picks"
+            },
+            {
+                "tagid": 4,
+                "tagname": "Summer Sale"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 4,
+        "actualprice": 42.13,
+        "discountprice": 42.87,
+        "shortdescription": "Breathable Comfortable Durable",
+        "fulldescription": "This Women's Skirt is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            },
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            }
+        ]
+    },
+    {
+        "productid": 49,
+        "productname": "Hemp Socks",
+        "productcode": "CN-STSD-49",
+        "categoryid": 5,
+        "categoryname": "Hemp",
+        "tags": [
+            {
+                "tagid": 2,
+                "tagname": "New Fashion"
+            },
+            {
+                "tagid": 4,
+                "tagname": "Summer Sale"
+            },
+            {
+                "tagid": 5,
+                "tagname": "Clearance Sale"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 85.85,
+        "discountprice": 25.8,
+        "shortdescription": "Durable Casual Stylish",
+        "fulldescription": "This Hemp Socks is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            },
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            }
+        ]
+    },
+    {
+        "productid": 50,
+        "productname": "Hemp Shirt",
+        "productcode": "CN-STSD-50",
+        "categoryid": 5,
+        "categoryname": "Hemp",
+        "tags": [
+            {
+                "tagid": 4,
+                "tagname": "Summer Sale"
+            },
+            {
+                "tagid": 1,
+                "tagname": "Top Picks"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 57.57,
+        "discountprice": 33.16,
+        "shortdescription": "Trendy Breathable Fashionable",
+        "fulldescription": "This Hemp Shirt is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            },
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            }
+        ]
+    },
+    {
+        "productid": 51,
+        "productname": "Women's Leggings",
+        "productcode": "CN-STSD-51",
+        "categoryid": 2,
+        "categoryname": "Womens",
+        "tags": [
+            {
+                "tagid": 3,
+                "tagname": "Sale Under 20$"
+            },
+            {
+                "tagid": 5,
+                "tagname": "Clearance Sale"
+            },
+            {
+                "tagid": 4,
+                "tagname": "Summer Sale"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 99.61,
+        "discountprice": 19.83,
+        "shortdescription": "Warm Casual Stylish",
+        "fulldescription": "This Women's Leggings is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            },
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            }
+        ]
+    },
+    {
+        "productid": 52,
+        "productname": "Hemp Shoes",
+        "productcode": "CN-STSD-52",
+        "categoryid": 5,
+        "categoryname": "Hemp",
+        "tags": [
+            {
+                "tagid": 1,
+                "tagname": "Top Picks"
+            },
+            {
+                "tagid": 4,
+                "tagname": "Summer Sale"
+            },
+            {
+                "tagid": 2,
+                "tagname": "New Fashion"
+            }
+        ],
+        "product_images": [
+            "product52_1.jpg"
+        ],
+        "reviewcount": 2,
+        "rating": 4,
+        "actualprice": 70.26,
+        "discountprice": 15.74,
+        "shortdescription": "Breathable Warm Stylish",
+        "fulldescription": "This Hemp Shoes is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            },
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            }
+        ]
+    },
+    {
+        "productid": 53,
+        "productname": "Hemp Hat",
+        "productcode": "CN-STSD-53",
+        "categoryid": 5,
+        "categoryname": "Hemp",
+        "tags": [
+            {
+                "tagid": 3,
+                "tagname": "Sale Under 20$"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 4,
+        "actualprice": 59.41,
+        "discountprice": 19.36,
+        "shortdescription": "Soft Casual Stylish",
+        "fulldescription": "This Hemp Hat is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            },
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            }
+        ]
+    },
+    {
+        "productid": 54,
+        "productname": "Kids Sweater",
+        "productcode": "CN-STSD-54",
+        "categoryid": 3,
+        "categoryname": "Kids",
+        "tags": [
+            {
+                "tagid": 5,
+                "tagname": "Clearance Sale"
+            },
+            {
+                "tagid": 4,
+                "tagname": "Summer Sale"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 4,
+        "actualprice": 65.24,
+        "discountprice": 49.33,
+        "shortdescription": "Trendy Stylish Breathable",
+        "fulldescription": "This Kids Sweater is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            },
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            }
+        ]
+    },
+    {
+        "productid": 55,
+        "productname": "Hemp Shoes 2",
+        "productcode": "CN-STSD-55",
+        "categoryid": 5,
+        "categoryname": "Hemp",
+        "tags": [
+            {
+                "tagid": 3,
+                "tagname": "Sale Under 20$"
+            }
+        ],
+        "product_images": [
+            "product52_1.jpg"
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 60.82,
+        "discountprice": 19.74,
+        "shortdescription": "Comfortable Soft Durable",
+        "fulldescription": "This Hemp Shoes is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            },
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            }
+        ]
+    },
+    {
+        "productid": 56,
+        "productname": "Men's Hoodie",
+        "productcode": "CN-STSD-56",
+        "categoryid": 1,
+        "categoryname": "Mens",
+        "tags": [
+            {
+                "tagid": 5,
+                "tagname": "Clearance Sale"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 4,
+        "actualprice": 59.56,
+        "discountprice": 23.75,
+        "shortdescription": "Stylish Warm Durable",
+        "fulldescription": "This Men's Hoodie is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            },
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            }
+        ]
+    },
+    {
+        "productid": 57,
+        "productname": "Hemp Pants",
+        "productcode": "CN-STSD-57",
+        "categoryid": 5,
+        "categoryname": "Hemp",
+        "tags": [
+            {
+                "tagid": 3,
+                "tagname": "Sale Under 20$"
+            },
+            {
+                "tagid": 1,
+                "tagname": "Top Picks"
+            },
+            {
+                "tagid": 2,
+                "tagname": "New Fashion"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 89.22,
+        "discountprice": 10.5,
+        "shortdescription": "Soft Warm Durable",
+        "fulldescription": "This Hemp Pants is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            },
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            }
+        ]
+    },
+    {
+        "productid": 58,
+        "productname": "Shoulder Bag",
+        "productcode": "CN-STSD-58",
+        "categoryid": 6,
+        "categoryname": "Bag",
+        "tags": [
+            {
+                "tagid": 2,
+                "tagname": "New Fashion"
+            },
+            {
+                "tagid": 3,
+                "tagname": "Sale Under 20$"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 4,
+        "actualprice": 68.25,
+        "discountprice": 17.03,
+        "shortdescription": "Lightweight Durable Trendy",
+        "fulldescription": "This Shoulder Bag is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            },
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            }
+        ]
+    },
+    {
+        "productid": 59,
+        "productname": "Weekender Bag",
+        "productcode": "CN-STSD-59",
+        "categoryid": 6,
+        "categoryname": "Bag",
+        "tags": [
+            {
+                "tagid": 2,
+                "tagname": "New Fashion"
+            },
+            {
+                "tagid": 4,
+                "tagname": "Summer Sale"
+            },
+            {
+                "tagid": 1,
+                "tagname": "Top Picks"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 4,
+        "actualprice": 32.12,
+        "discountprice": 46.99,
+        "shortdescription": "Trendy Casual Durable",
+        "fulldescription": "This Weekender Bag is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            },
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            }
+        ]
+    },
+    {
+        "productid": 60,
+        "productname": "Women's Jeans",
+        "productcode": "CN-STSD-60",
+        "categoryid": 2,
+        "categoryname": "Womens",
+        "tags": [
+            {
+                "tagid": 1,
+                "tagname": "Top Picks"
+            },
+            {
+                "tagid": 2,
+                "tagname": "New Fashion"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 53.28,
+        "discountprice": 48.82,
+        "shortdescription": "Casual Lightweight Durable",
+        "fulldescription": "This Women's Jeans is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            },
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            }
+        ]
+    },
+    {
+        "productid": 61,
+        "productname": "Kids Shoes",
+        "productcode": "CN-STSD-61",
+        "categoryid": 3,
+        "categoryname": "Kids",
+        "tags": [
+            {
+                "tagid": 2,
+                "tagname": "New Fashion"
+            },
+            {
+                "tagid": 1,
+                "tagname": "Top Picks"
+            },
+            {
+                "tagid": 5,
+                "tagname": "Clearance Sale"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 44.52,
+        "discountprice": 34.49,
+        "shortdescription": "Lightweight Stylish Warm",
+        "fulldescription": "This Kids Shoes is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            },
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            }
+        ]
+    },
+    {
+        "productid": 62,
+        "productname": "Knitted Shawl",
+        "productcode": "CN-STSD-62",
+        "categoryid": 7,
+        "categoryname": "Shawl",
+        "tags": [
+            {
+                "tagid": 1,
+                "tagname": "Top Picks"
+            },
+            {
+                "tagid": 5,
+                "tagname": "Clearance Sale"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 36.49,
+        "discountprice": 34.56,
+        "shortdescription": "Durable Casual Breathable",
+        "fulldescription": "This Knitted Shawl is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            },
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            }
+        ]
+    },
+    {
+        "productid": 63,
+        "productname": "Men's Sweater",
+        "productcode": "CN-STSD-63",
+        "categoryid": 1,
+        "categoryname": "Mens",
+        "tags": [
+            {
+                "tagid": 2,
+                "tagname": "New Fashion"
+            },
+            {
+                "tagid": 5,
+                "tagname": "Clearance Sale"
+            },
+            {
+                "tagid": 3,
+                "tagname": "Sale Under 20$"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 82.42,
+        "discountprice": 17.16,
+        "shortdescription": "Comfortable Fashionable Lightweight",
+        "fulldescription": "This Men's Sweater is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            },
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            }
+        ]
+    },
+    {
+        "productid": 64,
+        "productname": "Men's Sweater",
+        "productcode": "CN-STSD-64",
+        "categoryid": 1,
+        "categoryname": "Mens",
+        "tags": [
+            {
+                "tagid": 4,
+                "tagname": "Summer Sale"
+            },
+            {
+                "tagid": 2,
+                "tagname": "New Fashion"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 47.95,
+        "discountprice": 41.52,
+        "shortdescription": "Comfortable Trendy Fashionable",
+        "fulldescription": "This Men's Sweater is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            },
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            }
+        ]
+    },
+    {
+        "productid": 65,
+        "productname": "Hemp Hat",
+        "productcode": "CN-STSD-65",
+        "categoryid": 5,
+        "categoryname": "Hemp",
+        "tags": [
+            {
+                "tagid": 4,
+                "tagname": "Summer Sale"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 29.99,
+        "discountprice": 48.85,
+        "shortdescription": "Durable Casual Warm",
+        "fulldescription": "This Hemp Hat is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            },
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            }
+        ]
+    },
+    {
+        "productid": 66,
+        "productname": "Hemp Pants",
+        "productcode": "CN-STSD-66",
+        "categoryid": 5,
+        "categoryname": "Hemp",
+        "tags": [
+            {
+                "tagid": 3,
+                "tagname": "Sale Under 20$"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 92.12,
+        "discountprice": 11.22,
+        "shortdescription": "Breathable Fashionable Durable",
+        "fulldescription": "This Hemp Pants is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            },
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            }
+        ]
+    },
+    {
+        "productid": 67,
+        "productname": "Women's Jeans",
+        "productcode": "CN-STSD-67",
+        "categoryid": 2,
+        "categoryname": "Womens",
+        "tags": [
+            {
+                "tagid": 4,
+                "tagname": "Summer Sale"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 4,
+        "actualprice": 58.0,
+        "discountprice": 21.74,
+        "shortdescription": "Comfortable Fashionable Breathable",
+        "fulldescription": "This Women's Jeans is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            },
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            }
+        ]
+    },
+    {
+        "productid": 68,
+        "productname": "Kids Hat",
+        "productcode": "CN-STSD-68",
+        "categoryid": 3,
+        "categoryname": "Kids",
+        "tags": [
+            {
+                "tagid": 4,
+                "tagname": "Summer Sale"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 82.12,
+        "discountprice": 10.3,
+        "shortdescription": "Comfortable Stylish Lightweight",
+        "fulldescription": "This Kids Hat is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            },
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            }
+        ]
+    },
+    {
+        "productid": 69,
+        "productname": "Men's Hoodie",
+        "productcode": "CN-STSD-69",
+        "categoryid": 1,
+        "categoryname": "Mens",
+        "tags": [
+            {
+                "tagid": 4,
+                "tagname": "Summer Sale"
+            },
+            {
+                "tagid": 3,
+                "tagname": "Sale Under 20$"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 4,
+        "actualprice": 25.96,
+        "discountprice": 15.2,
+        "shortdescription": "Stylish Fashionable Durable",
+        "fulldescription": "This Men's Hoodie is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            },
+            {
+                "name": "Jane Smith",
+                "rating_count": 4,
+                "review_date": "2023-12-05",
+                "review_desc": "Good quality, but a bit too large."
+            }
+        ]
+    },
+    {
+        "productid": 70,
+        "productname": "Kids Dress",
+        "productcode": "CN-STSD-70",
+        "categoryid": 3,
+        "categoryname": "Kids",
+        "tags": [
+            {
+                "tagid": 5,
+                "tagname": "Clearance Sale"
+            },
+            {
+                "tagid": 4,
+                "tagname": "Summer Sale"
+            }
+        ],
+        "product_images": [
+        ],
+        "reviewcount": 2,
+        "rating": 3,
+        "actualprice": 23.3,
+        "discountprice": 31.03,
+        "shortdescription": "Warm Casual Comfortable",
+        "fulldescription": "This Kids Dress is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
+        "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
+        "reviews": [
+            {
+                "name": "Sara Lee",
+                "rating_count": 2,
+                "review_date": "2023-12-10",
+                "review_desc": "Decent quality for the price."
+            },
+            {
+                "name": "John Doe",
+                "rating_count": 4,
+                "review_date": "2023-12-01",
+                "review_desc": "Great product! Very comfortable."
+            }
+        ]
+    }
+]
