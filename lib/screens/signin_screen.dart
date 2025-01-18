@@ -157,14 +157,13 @@ class SignInScreen extends StatelessWidget {
       final password = passwordController.text.trim();
 
       if (_isValidLogin(email, password)) {
-        UIUtils.showSnackbar(
-            context, 'Success. Login successful!', Colors.green);
+        UIUtils.showSnackbar(context, 'Login successful!', Colors.green);
         // Navigator.pushReplacementNamed(context, '/success',
         //     arguments: 'Login successful!');
         Navigator.pushReplacementNamed(context, '/home');
       } else {
         UIUtils.showSnackbar(
-            context, 'Error. Email or password is incorrect!', Colors.red);
+            context, 'Email or password is incorrect!', Colors.red);
       }
     }
   }
