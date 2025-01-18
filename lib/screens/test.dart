@@ -1,163 +1,100 @@
-// import 'package:flutter/material.dart';
-// import 'package:demo/widgets/banner_slider.dart';
-// import 'package:demo/widgets/custom_bottom_nav_bar.dart';
-// import 'package:demo/model/product_service.dart'; // Import the service
+import 'package:demo/widgets/custom_bottom_nav_bar.dart';
+import 'package:flutter/material.dart';
+import 'package:demo/model/product_service.dart'; // Product fetching logic
+import 'package:demo/utils/snackbar_lib.dart';
 
-// class HomeScreen extends StatelessWidget {
-//   const HomeScreen({super.key});
+class CategoryProductsScreen extends StatefulWidget {
+  final int categoryId;
+  final String categoryName;
 
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       backgroundColor: Color(0xFFFAFAFA),
-//       appBar: CustomAppBar(title: 'Clothing Nepal'),
-//       body: SingleChildScrollView(
-//         child: Padding(
-//           padding: const EdgeInsets.symmetric(horizontal: 10.0),
-//           child: Column(
-//             crossAxisAlignment: CrossAxisAlignment.start,
-//             children: [
-//               BannerSlider(),
-//               SectionTitle(title: 'Top Picks'),
-//               ProductList(),
-//               SectionTitle(title: 'New Arrivals'),
-//               ProductList(),
-//             ],
-//           ),
-//         ),
-//       ),
-//       bottomNavigationBar: CustomBottomNavBar(),
-//     );
-//   }
-// }
+  const CategoryProductsScreen({
+    super.key,
+    required this.categoryId,
+    required this.categoryName,
+  });
 
-// class SectionTitle extends StatelessWidget {
-//   final String title;
+  @override
+  CategoryProductsScreenState createState() => CategoryProductsScreenState();
+}
 
-//   const SectionTitle({super.key, required this.title});
+class CategoryProductsScreenState extends State<CategoryProductsScreen> {
+  late Future<List<Product>> _productsFuture;
 
-//   @override
-//   Widget build(BuildContext context) {
-//     return Padding(
-//       padding: const EdgeInsets.symmetric(vertical: 8.0),
-//       child: Row(
-//         mainAxisAlignment: MainAxisAlignment.spaceBetween,
-//         children: [
-//           Text(
-//             title,
-//             style: TextStyle(
-//                 fontSize: 18,
-//                 fontWeight: FontWeight.w600,
-//                 color: const Color(0xFF004D67)),
-//           ),
-//           TextButton(
-//             onPressed: () {},
-//             child: Text(
-//               'View more',
-//               style: TextStyle(
-//                   color: const Color(0xFF204E2D),
-//                   fontSize: 14,
-//                   decoration: TextDecoration.underline,
-//                   fontWeight: FontWeight.w500),
-//             ),
-//           ),
-//         ],
-//       ),
-//     );
-//   }
-// }
+  @override
+  void initState() {
+    super.initState();
+    _productsFuture =
+        ProductService().getFilteredProducts(categoryId: widget.categoryId);
+  }
 
-// class ProductList extends StatelessWidget {
-//   const ProductList({super.key});
+  Future<void> _refreshData() async {
+    await Future.delayed(const Duration(seconds: 2));
+    setState(() {
+      _productsFuture =
+          ProductService().getFilteredProducts(categoryId: widget.categoryId);
+    });
+    if (mounted) {
+      UIUtils.showSnackbar(context, 'Page Refreshed!', Colors.green);
+    }
+  }
 
-//   @override
-//   Widget build(BuildContext context) {
-//     return SizedBox(
-//       height: 350.0,
-//       child: ListView.builder(
-//         scrollDirection: Axis.horizontal,
-//         itemCount: 5,
-//         itemBuilder: (context, index) {
-//           return Padding(
-//             padding: const EdgeInsets.only(right: 10.0),
-//             child: ProductCard(),
-//           );
-//         },
-//       ),
-//     );
-//   }
-// }
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: const Color(0xFFFAFAFA),
+      appBar: CustomAppBar1(title: widget.categoryName),
+      body: SafeArea(
+        child: RefreshIndicator(
+          onRefresh: _refreshData,
+          child: FutureBuilder<List<Product>>(
+            future: _productsFuture,
+            builder: (context, snapshot) {
+              if (snapshot.connectionState == ConnectionState.waiting) {
+                return const Center(child: CircularProgressIndicator());
+              }
+              if (snapshot.hasError) {
+                return Center(child: Text('Error: ${snapshot.error}'));
+              }
+              if (!snapshot.hasData || snapshot.data!.isEmpty) {
+                return const Center(child: Text('No products found.'));
+              }
 
-// class ProductCard extends StatelessWidget {
-//   const ProductCard({super.key});
+              List<Product> products = snapshot.data!;
 
-//   @override
-//   Widget build(BuildContext context) {
-//     return Container(
-//       width: 185.0,
-//       decoration: BoxDecoration(
-//         borderRadius: BorderRadius.circular(10),
-//         color: Colors.white,
-//         border: Border.all(
-//           color: Color(0xFFD9D9D9), // Border color
-//           width: 1.0, // Border width
-//           style: BorderStyle.solid, // Border style
-//         ),
-//       ),
-//       child: Column(
-//         crossAxisAlignment: CrossAxisAlignment.start,
-//         children: [
-//           Container(
-//             height: 250.0,
-//             decoration: BoxDecoration(
-//               borderRadius: BorderRadius.vertical(top: Radius.circular(10)),
-//               image: DecorationImage(
-//                 image: AssetImage('assets/images/product/item1.jpg'),
-//                 fit: BoxFit.cover,
-//               ),
-//             ),
-//           ),
-//           Padding(
-//             padding: const EdgeInsets.all(8.0),
-//             child: Column(
-//               crossAxisAlignment: CrossAxisAlignment.start,
-//               children: [
-//                 Text(
-//                   'Lorem Ipsum Dolor',
-//                   style: TextStyle(fontWeight: FontWeight.w500),
-//                 ),
-//                 Row(
-//                   children: List.generate(
-//                           4,
-//                           (index) => Icon(Icons.star,
-//                               color: const Color(0xFFF27922), size: 16)) +
-//                       [
-//                         Icon(Icons.star_border,
-//                             color: const Color(0xFFF27922), size: 16)
-//                       ],
-//                 ),
-//                 SizedBox(height: 4),
-//                 Text(
-//                   '\$15.18',
-//                   style: TextStyle(
-//                     color: Colors.teal,
-//                     fontWeight: FontWeight.w500,
-//                     fontSize: 14,
-//                   ),
-//                 ),
-//                 Text(
-//                   '\$15.18',
-//                   style: TextStyle(
-//                     decoration: TextDecoration.lineThrough,
-//                     color: Colors.grey,
-//                     fontSize: 12,
-//                   ),
-//                 ),
-//               ],
-//             ),
-//           ),
-//         ],
-//       ),
-//     );
-//   }
-// }
+              return SingleChildScrollView(
+                physics: AlwaysScrollableScrollPhysics(),
+                child: Column(
+                  children: [
+                    // Flexible child for GridView to avoid overflow
+                    GridView.builder(
+                      shrinkWrap:
+                          true, // Prevent GridView from taking infinite height
+                      physics: const NeverScrollableScrollPhysics(),
+                      padding: const EdgeInsets.symmetric(vertical: 10.0),
+                      gridDelegate:
+                          const SliverGridDelegateWithFixedCrossAxisCount(
+                        crossAxisCount: 2,
+                        crossAxisSpacing: 0,
+                        mainAxisSpacing: 20,
+                        childAspectRatio: 2.6 / 3,
+                      ),
+                      itemCount: products.length,
+                      itemBuilder: (context, index) {
+                        return Container(
+                          margin: const EdgeInsets.symmetric(horizontal: 10.0),
+                          child: ProductCard(
+                            product: products[index],
+                          ),
+                        );
+                      },
+                    ),
+                  ],
+                ),
+              );
+            },
+          ),
+        ),
+      ),
+    );
+  }
+}

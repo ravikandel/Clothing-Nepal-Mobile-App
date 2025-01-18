@@ -1,3 +1,4 @@
+import 'package:demo/screens/category_product_screen.dart';
 import 'package:flutter/material.dart';
 
 class BannerSlider extends StatefulWidget {
@@ -8,10 +9,28 @@ class BannerSlider extends StatefulWidget {
 }
 
 class BannerSliderState extends State<BannerSlider> {
-  final List<String> images = [
-    'assets/images/slider/banner1.jpg',
-    'assets/images/slider/banner1.jpg',
-    'assets/images/slider/banner1.jpg',
+  final List<Map<String, dynamic>> banners = [
+    {
+      'image': 'assets/images/slider/banner1.jpg',
+      'title': 'Kids Wear',
+      'subtitle': 'Stay cool with our latest styles',
+      'categoryId': 3,
+      'categoryName': 'Kids',
+    },
+    {
+      'image': 'assets/images/slider/banner2.jpg',
+      'title': 'Winter Wear',
+      'subtitle': 'Keep warm with elegance',
+      'categoryId': 4,
+      'categoryName': 'Wool',
+    },
+    {
+      'image': 'assets/images/slider/banner3.jpg',
+      'title': 'Spring Essentials',
+      'subtitle': 'Bloom in style this season',
+      'categoryId': 6,
+      'categoryName': 'Shawl',
+    },
   ];
 
   int currentIndex = 0;
@@ -26,7 +45,7 @@ class BannerSliderState extends State<BannerSlider> {
               child: SizedBox(
                 height: 220.0,
                 child: PageView.builder(
-                  itemCount: images.length,
+                  itemCount: banners.length,
                   onPageChanged: (index) {
                     setState(() {
                       currentIndex = index;
@@ -38,7 +57,7 @@ class BannerSliderState extends State<BannerSlider> {
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10.0),
                         image: DecorationImage(
-                          image: AssetImage(images[index]),
+                          image: AssetImage(banners[index]['image']!),
                           fit: BoxFit.cover,
                         ),
                       ),
@@ -61,17 +80,17 @@ class BannerSliderState extends State<BannerSlider> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           mainAxisSize: MainAxisSize.min,
                           children: [
-                            const Text(
-                              'New Fashion',
-                              style: TextStyle(
+                            Text(
+                              banners[index]['title']!,
+                              style: const TextStyle(
                                 color: Colors.white,
                                 fontSize: 18,
                                 fontWeight: FontWeight.w600,
                               ),
                             ),
-                            const Text(
-                              'High quality fabrics',
-                              style: TextStyle(
+                            Text(
+                              banners[index]['subtitle']!,
+                              style: const TextStyle(
                                 color: Colors.white,
                                 fontSize: 14,
                                 fontWeight: FontWeight.normal,
@@ -80,7 +99,18 @@ class BannerSliderState extends State<BannerSlider> {
                             const SizedBox(height: 10),
                             ElevatedButton(
                               onPressed: () {
-                                debugPrint('Button Pressed on Slide $index');
+                                // Navigate to the CategoryProductsScreen
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) =>
+                                        CategoryProductsScreen(
+                                      categoryId: banners[index]['categoryId'],
+                                      categoryName: banners[index]
+                                          ['categoryName'],
+                                    ),
+                                  ),
+                                );
                               },
                               style: ElevatedButton.styleFrom(
                                 backgroundColor: Colors.transparent,
@@ -111,7 +141,7 @@ class BannerSliderState extends State<BannerSlider> {
           right: 20.0,
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: List.generate(images.length, (index) {
+            children: List.generate(banners.length, (index) {
               return AnimatedContainer(
                 duration: const Duration(milliseconds: 300),
                 margin: const EdgeInsets.symmetric(horizontal: 4.0),

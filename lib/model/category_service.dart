@@ -18,8 +18,8 @@ class Category {
     return Category(
       categoryId: json['categoryid'],
       categoryName: json['categoryname'],
-      categoryImage: //json['categoryimage'] ??
-          'assets/images/slider/banner1.jpg', // Default image
+      categoryImage: json['categoryimage'] ??
+          'assets/images/product/default.jpg', // Default image
     );
   }
 }
@@ -151,7 +151,16 @@ class CategoryCard extends StatelessWidget {
                   const SizedBox(height: 16),
                   ElevatedButton(
                     onPressed: () {
-                      // Handle button tap
+                      // Navigate to the CategoryProductsScreen
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => CategoryProductsScreen(
+                            categoryId: id,
+                            categoryName: title,
+                          ),
+                        ),
+                      );
                     },
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.white,

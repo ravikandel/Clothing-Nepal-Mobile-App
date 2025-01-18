@@ -40,14 +40,16 @@ class _BaseLayoutState extends State<BaseLayout> {
         currentIndex: _selectedIndex,
         onTap: _onItemTapped,
         items: const [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
           BottomNavigationBarItem(
-              icon: Icon(Icons.grid_view), label: 'Categories'),
+              icon: Icon(Icons.home_rounded), label: 'Home'),
           BottomNavigationBarItem(
-              icon: Icon(Icons.favorite), label: 'Favorites'),
+              icon: Icon(Icons.grid_view_rounded), label: 'Categories'),
           BottomNavigationBarItem(
-              icon: Icon(Icons.shopping_cart), label: 'Cart'),
-          BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profile'),
+              icon: Icon(Icons.favorite_rounded), label: 'Favorites'),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.shopping_cart_rounded), label: 'Cart'),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.person_rounded), label: 'Profile'),
         ],
         selectedItemColor: Color(0xFF204E2D),
         unselectedItemColor: Colors.grey,

@@ -28,6 +28,7 @@ class HomeScreenState extends State<HomeScreen> {
       body: RefreshIndicator(
         onRefresh: _refreshData,
         child: ListView(
+          padding: const EdgeInsets.symmetric(vertical: 10.0),
           children: [
             BannerSlider(),
             SectionTitle(title: 'New Fashion', id: 2),

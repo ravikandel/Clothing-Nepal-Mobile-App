@@ -69,6 +69,7 @@ flutter:
     - assets/categories.json
     - assets/images/slider/
     - assets/images/product/
+    - assets/images/category/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

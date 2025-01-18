@@ -116,7 +116,7 @@ class ProductList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 280.0,
+      height: 240.0,
       child: FutureBuilder<List<Product>>(
         future: ProductService().getFilteredProducts(
             tagId: tagId, count: count), // Fetch products based on tagId
@@ -175,7 +175,7 @@ class ProductCard extends StatelessWidget {
             children: [
               // Product Image
               Container(
-                height: 200.0,
+                height: 160.0, // Reduced height to fit better in grid view
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.vertical(top: Radius.circular(10)),
                   image: DecorationImage(
@@ -214,12 +214,16 @@ class ProductCard extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
+                // Product name
                 Text(
-                  product.productName, // Display the product name
+                  product.productName,
                   style: TextStyle(
                       fontWeight: FontWeight.w500,
                       color: const Color(0xFF004D67)),
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis, // Prevent overflow
                 ),
+                // Rating stars
                 Row(
                   children: List.generate(
                         product.rating, // Generate filled stars
@@ -230,7 +234,7 @@ class ProductCard extends StatelessWidget {
                         ),
                       ) +
                       List.generate(
-                        5 - (product.rating), // Generate empty stars
+                        5 - product.rating, // Generate empty stars
                         (index) => Icon(
                           Icons.star_border,
                           color: const Color(0xFFF27922),
@@ -240,11 +244,11 @@ class ProductCard extends StatelessWidget {
                 ),
                 SizedBox(height: 4),
                 Row(
-                  mainAxisAlignment: MainAxisAlignment.start, // Adjust spacing
+                  mainAxisAlignment: MainAxisAlignment.start,
                   children: [
                     if (product.discountPrice > 0.0) ...[
                       Text(
-                        '\$${product.discountPrice}', // Display the discount price
+                        '\$${product.discountPrice}',
                         style: TextStyle(
                           color: Color(0xFF204E2D),
                           fontWeight: FontWeight.w600,
@@ -255,7 +259,7 @@ class ProductCard extends StatelessWidget {
                     ],
                     if (product.actualPrice > 0.0)
                       Text(
-                        '\$${product.actualPrice}', // Display the actual price
+                        '\$${product.actualPrice}',
                         style: TextStyle(
                           decoration: TextDecoration.lineThrough,
                           color: Colors.grey,
@@ -267,7 +271,7 @@ class ProductCard extends StatelessWidget {
                 ),
                 if (product.discountPrice <= 0.0 && product.actualPrice <= 0.0)
                   Text(
-                    'Price not available!', // Fallback text
+                    'Price not available!',
                     style: TextStyle(
                       color: Colors.red,
                       fontWeight: FontWeight.w500,

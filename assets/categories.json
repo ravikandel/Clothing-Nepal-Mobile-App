@@ -2,36 +2,36 @@
     {
         "categoryid": 1,
         "categoryname": "Men's",
-        "categoryimage": "assets/images/category/category1.jpg"
+        "categoryimage": "assets/images/category/cat_men.jpg"
     },
     {
         "categoryid": 2,
         "categoryname": "Women's",
-        "categoryimage": "assets/images/category/category2.jpg"
+        "categoryimage": "assets/images/category/cat_women.jpg"
     },
     {
         "categoryid": 3,
         "categoryname": "Kids",
-        "categoryimage": "assets/images/category/category3.jpg"
+        "categoryimage": "assets/images/category/cat_kid.jpg"
     },
     {
         "categoryid": 4,
         "categoryname": "Wool",
-        "categoryimage": "assets/images/category/category4.jpg"
+        "categoryimage": "assets/images/category/cat_wool.jpg"
     },
     {
         "categoryid": 5,
         "categoryname": "Hemp",
-        "categoryimage": "assets/images/category/category5.jpg"
-    },
-    {
-        "categoryid": 5,
-        "categoryname": "Bag",
-        "categoryimage": "assets/images/category/category5.jpg"
+        "categoryimage": "assets/images/category/cat_hemp.jpg"
     },
     {
         "categoryid": 6,
+        "categoryname": "Bag",
+        "categoryimage": "assets/images/category/cat_bag.jpg"
+    },
+    {
+        "categoryid": 7,
         "categoryname": "Shawl",
-        "categoryimage": "assets/images/category/category6.jpg"
+        "categoryimage": "assets/images/category/cat_shawl.jpg"
     }
 ]
