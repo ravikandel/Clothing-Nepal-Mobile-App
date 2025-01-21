@@ -4,12 +4,14 @@ import 'package:demo/model/product_service.dart'; // Product fetching logic
 import 'package:demo/utils/snackbar_lib.dart';
 
 class CategoryProductsScreen extends StatefulWidget {
-  final int categoryId;
+  final int? categoryId;
+  final int? tagId;
   final String categoryName;
 
   const CategoryProductsScreen({
     super.key,
-    required this.categoryId,
+    this.categoryId,
+    this.tagId,
     required this.categoryName,
   });
 
@@ -32,8 +34,8 @@ class CategoryProductsScreenState extends State<CategoryProductsScreen> {
   }
 
   Future<void> _fetchProducts() async {
-    _productsFuture =
-        ProductService().getFilteredProducts(categoryId: widget.categoryId);
+    _productsFuture = ProductService().getFilteredProducts(
+        categoryId: widget.categoryId, tagId: widget.tagId);
     _productsFuture.then((products) {
       setState(() {
         _allProducts = products;
@@ -82,52 +84,43 @@ class CategoryProductsScreenState extends State<CategoryProductsScreen> {
                 padding: const EdgeInsets.symmetric(
                     horizontal: 10.0, vertical: 10.0),
                 child: Row(
-                  mainAxisAlignment: MainAxisAlignment
-                      .spaceBetween, // Aligns children with space between
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     // Search Field
                     SizedBox(
-                      height: 40.0, // Set desired height for the search bar
-                      width: MediaQuery.of(context).size.width /
-                          2.2, // Half the screen width
+                      height: 40.0,
+                      width: MediaQuery.of(context).size.width / 2.2,
                       child: Container(
                         decoration: BoxDecoration(
                           border: Border.all(
-                            color: Color(0xFFD9D9D9), // Border color
-                            width: 1.0, // Border width
+                            color: Color(0xFFD9D9D9),
+                            width: 1.0,
                           ),
-                          borderRadius:
-                              BorderRadius.circular(10.0), // Rounded corners
+                          borderRadius: BorderRadius.circular(10.0),
                         ),
                         child: TextField(
                           controller: _searchController,
                           decoration: InputDecoration(
                             hintText: "Search...",
                             suffixIcon: const Icon(Icons.search),
-                            contentPadding: const EdgeInsets.symmetric(
-                                horizontal: 5.0), // Adjust padding
-                            border: InputBorder
-                                .none, // Remove the default border inside
-                            fillColor: Colors.white, // Light grey background
+                            contentPadding:
+                                const EdgeInsets.symmetric(horizontal: 5.0),
+                            border: InputBorder.none,
                           ),
                         ),
                       ),
                     ),
                     const SizedBox(width: 10.0),
-
                     // Filter Dropdown
                     Container(
                       height: 40.0,
-                      width: MediaQuery.of(context).size.width /
-                          2.2, // Half the screen width
+                      width: MediaQuery.of(context).size.width / 2.2,
                       decoration: BoxDecoration(
-                        color:
-                            Colors.white, // Background color for the dropdown
-                        borderRadius:
-                            BorderRadius.circular(10.0), // Rounded corners
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(10.0),
                         border: Border.all(
-                          color: Color(0xFFD9D9D9), // Border color
-                          width: 1.0, // Border width
+                          color: Color(0xFFD9D9D9),
+                          width: 1.0,
                         ),
                       ),
                       padding: const EdgeInsets.symmetric(horizontal: 8.0),
@@ -137,7 +130,7 @@ class CategoryProductsScreenState extends State<CategoryProductsScreen> {
                           Icons.filter_list,
                           color: Color(0xFF004D67),
                         ),
-                        underline: const SizedBox(), // Remove default underline
+                        underline: const SizedBox(),
                         items: const [
                           DropdownMenuItem(
                             value: "lh",

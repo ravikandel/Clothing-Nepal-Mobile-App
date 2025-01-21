@@ -1,3 +1,4 @@
+import 'package:demo/screens/category_product_screen.dart';
 import 'package:flutter/material.dart';
 
 class SectionTitle extends StatelessWidget {
@@ -22,7 +23,19 @@ class SectionTitle extends StatelessWidget {
           ),
           TextButton(
             onPressed: () {
-              debugPrint('View more pressed $id');
+              if (id == 0) {
+              } else {
+                // Navigate to the CategoryProductsScreen
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => CategoryProductsScreen(
+                      tagId: id,
+                      categoryName: title,
+                    ),
+                  ),
+                );
+              }
             },
             child: Text(
               'View more →',

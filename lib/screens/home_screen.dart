@@ -35,6 +35,8 @@ class HomeScreenState extends State<HomeScreen> {
             ProductList(tagId: 2, count: 10),
             SectionTitle(title: 'Summer Sale', id: 4),
             ProductList(tagId: 4),
+            SectionTitle(title: 'Browse By Category', id: 0),
+            CategoriesSlider(),
             SectionTitle(title: 'Top Picks', id: 1),
             ProductList(tagId: 1, count: 10),
             SectionTitle(title: 'Sale Under 20\$', id: 3),

@@ -73,7 +73,57 @@ class CustomAppBar1 extends StatelessWidget implements PreferredSizeWidget {
             ),
           ),
           IconButton(
-            icon: const Icon(Icons.shopping_cart_rounded,
+            icon: const Icon(Icons.notifications_rounded,
+                color: Color(0xFF004D67)),
+            iconSize: 30.0,
+            onPressed: () {},
+          ),
+        ],
+      ),
+    );
+  }
+
+  @override
+  Size get preferredSize => Size.fromHeight(kToolbarHeight * 0.8);
+}
+
+class CustomAppBar2 extends StatelessWidget implements PreferredSizeWidget {
+  final String title;
+
+  const CustomAppBar2({super.key, required this.title});
+
+  @override
+  Widget build(BuildContext context) {
+    return AppBar(
+      backgroundColor: const Color(0xFFFAFAFA), // Fixed background color
+      elevation: 0, // Remove shadow
+      automaticallyImplyLeading: false, // No default back button
+      title: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          IconButton(
+            icon:
+                const Icon(Icons.arrow_back_rounded, color: Color(0xFF004D67)),
+            iconSize: 30.0,
+            onPressed: () {
+              Navigator.pop(context); // Navigate back to the previous screen
+            },
+          ),
+          Text(
+            title,
+            style: const TextStyle(
+              color: Color(0xFF004D67),
+              fontSize: 20,
+              fontWeight: FontWeight.w600,
+            ),
+          ),
+          IconButton(
+            icon: const Icon(Icons.ios_share_rounded, color: Color(0xFF004D67)),
+            iconSize: 30.0,
+            onPressed: () {},
+          ),
+          IconButton(
+            icon: const Icon(Icons.notifications_rounded,
                 color: Color(0xFF004D67)),
             iconSize: 30.0,
             onPressed: () {},
@@ -140,7 +190,7 @@ class CustomBottomNavBarState extends State<CustomBottomNavBar> {
         BottomNavigationBarItem(
             icon: Icon(Icons.grid_view_rounded), label: 'Categories'),
         BottomNavigationBarItem(
-            icon: Icon(Icons.favorite_rounded), label: 'Favorites'),
+            icon: Icon(Icons.favorite_rounded), label: 'Wishlist'),
         BottomNavigationBarItem(
             icon: Icon(Icons.shopping_cart_rounded), label: 'Cart'),
         BottomNavigationBarItem(
@@ -148,8 +198,8 @@ class CustomBottomNavBarState extends State<CustomBottomNavBar> {
       ],
       selectedItemColor: Color(0xFF204E2D),
       unselectedItemColor: Colors.grey,
-      showSelectedLabels: false,
-      showUnselectedLabels: false,
+      showSelectedLabels: true,
+      showUnselectedLabels: true,
     );
   }
 }

@@ -22,7 +22,7 @@ class CategoriesScreenState extends State<CategoriesScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color(0xFFFAFAFA),
-      appBar: CustomAppBar(title: 'Clothing Nepal'),
+      appBar: CustomAppBar(title: 'All Categories'),
       body: RefreshIndicator(
         onRefresh: _refreshData, // Call the refresh function on swipe down
         child: SizedBox.expand(
@@ -30,7 +30,6 @@ class CategoriesScreenState extends State<CategoriesScreen> {
           child: CategoryList(),
         ),
       ),
-      //bottomNavigationBar: CustomBottomNavBar(currentIndex: 1),
     );
   }
 }

@@ -1,3 +1,4 @@
+import 'package:demo/screens/wishlist_screen.dart';
 import 'package:flutter/material.dart';
 import 'home_screen.dart';
 import 'categories_screen.dart';
@@ -16,7 +17,7 @@ class _BaseLayoutState extends State<BaseLayout> {
   final List<Widget> _screens = [
     HomeScreen(), // Index 0
     CategoriesScreen(), // Index 1
-    // FavoritesScreen(), // Index 2
+    WishlistScreen(), // Index 2
     // CartScreen(), // Index 3
     // ProfileScreen(), // Index 4
   ];
@@ -45,7 +46,7 @@ class _BaseLayoutState extends State<BaseLayout> {
           BottomNavigationBarItem(
               icon: Icon(Icons.grid_view_rounded), label: 'Categories'),
           BottomNavigationBarItem(
-              icon: Icon(Icons.favorite_rounded), label: 'Favorites'),
+              icon: Icon(Icons.favorite_rounded), label: 'Wishlist'),
           BottomNavigationBarItem(
               icon: Icon(Icons.shopping_cart_rounded), label: 'Cart'),
           BottomNavigationBarItem(
@@ -53,8 +54,8 @@ class _BaseLayoutState extends State<BaseLayout> {
         ],
         selectedItemColor: Color(0xFF204E2D),
         unselectedItemColor: Colors.grey,
-        showSelectedLabels: false,
-        showUnselectedLabels: false,
+        showSelectedLabels: true,
+        showUnselectedLabels: true,
       ),
     );
   }
