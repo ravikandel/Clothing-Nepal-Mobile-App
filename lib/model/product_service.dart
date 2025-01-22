@@ -230,7 +230,7 @@ class ProductCard extends StatelessWidget {
                             isInWishlist
                                 ? Icons.favorite
                                 : Icons.favorite_border,
-                            color: const Color(0xFFF27922),
+                            color: Color(0xFFF27922),
                             size: 20,
                           ),
                         ),
@@ -257,16 +257,16 @@ class ProductCard extends StatelessWidget {
                     children: List.generate(
                           product.rating,
                           (index) => Icon(
-                            Icons.star,
-                            color: const Color(0xFFF27922),
+                            Icons.star_rounded,
+                            color: Color(0xFFF27922),
                             size: 16,
                           ),
                         ) +
                         List.generate(
                           5 - product.rating,
                           (index) => Icon(
-                            Icons.star_border,
-                            color: const Color(0xFFF27922),
+                            Icons.star_border_rounded,
+                            color: Color(0xFFF27922),
                             size: 16,
                           ),
                         ),
@@ -291,7 +291,8 @@ class ProductCard extends StatelessWidget {
                           '\$${product.actualPrice.toStringAsFixed(2)}',
                           style: TextStyle(
                             decoration: TextDecoration.lineThrough,
-                            color: Colors.grey,
+                            color: Colors.red,
+                            decorationColor: Colors.red,
                             fontWeight: FontWeight.normal,
                             fontSize: 12,
                           ),

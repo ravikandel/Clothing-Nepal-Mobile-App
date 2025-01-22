@@ -35,7 +35,7 @@
                 "name": "John Doe",
                 "rating_count": 4,
                 "review_date": "2023-12-01",
-                "review_desc": "Great product! Very comfortable."
+                "review_desc": "Great product! Very comfortable. Great product! Very comfortable. Great product! Very comfortable. Great product! Very comfortable."
             },
             {
                 "name": "Jane Smith",
@@ -68,18 +68,7 @@
         "fulldescription": "This Duffel Bag is perfect for everyday use. Crafted from high-quality materials, it offers exceptional comfort. Available in various sizes and colors, it suits all styles. Whether for casual or formal occasions, this product is a must-have. Get yours today and experience the best in fashion and comfort.",
         "shipping_returns": "We offer free standard shipping on all orders, ensuring your products arrive quickly and securely. Orders are typically processed within 1-2 business days, and delivery times vary based on your location. We provide a 30-day return policy on all items, allowing you to return products hassle-free. To initiate a return, simply contact our customer service team, and they will guide you through the process",
         "reviews": [
-            {
-                "name": "Sara Lee",
-                "rating_count": 2,
-                "review_date": "2023-12-10",
-                "review_desc": "Decent quality for the price."
-            },
-            {
-                "name": "Jane Smith",
-                "rating_count": 4,
-                "review_date": "2023-12-05",
-                "review_desc": "Good quality, but a bit too large."
-            }
+            
         ]
     },
     {
