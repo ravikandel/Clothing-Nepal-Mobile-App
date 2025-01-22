@@ -1,3 +1,4 @@
+import 'package:demo/screens/cart_screen.dart';
 import 'package:demo/screens/wishlist_screen.dart';
 import 'package:flutter/material.dart';
 import 'home_screen.dart';
@@ -18,7 +19,7 @@ class _BaseLayoutState extends State<BaseLayout> {
     HomeScreen(), // Index 0
     CategoriesScreen(), // Index 1
     WishlistScreen(), // Index 2
-    // CartScreen(), // Index 3
+    CartScreen(), // Index 3
     // ProfileScreen(), // Index 4
   ];
 

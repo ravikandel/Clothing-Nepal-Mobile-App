@@ -1,3 +1,4 @@
+import 'package:demo/utils/cart_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:demo/utils/wishlist_manager.dart';
@@ -12,8 +13,11 @@ import 'package:demo/screens/resetpassword_screen.dart';
 
 void main() {
   runApp(
-    ChangeNotifierProvider(
-      create: (context) => WishlistManager(),
+    MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (_) => CartManager()),
+        ChangeNotifierProvider(create: (_) => WishlistManager()),
+      ],
       child: const MyApp(),
     ),
   );

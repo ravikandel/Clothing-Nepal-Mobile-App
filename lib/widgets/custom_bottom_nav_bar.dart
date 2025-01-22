@@ -122,12 +122,6 @@ class CustomAppBar2 extends StatelessWidget implements PreferredSizeWidget {
             iconSize: 30.0,
             onPressed: () {},
           ),
-          IconButton(
-            icon: const Icon(Icons.notifications_rounded,
-                color: Color(0xFF004D67)),
-            iconSize: 30.0,
-            onPressed: () {},
-          ),
         ],
       ),
     );

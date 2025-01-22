@@ -107,8 +107,9 @@ class WishlistScreenState extends State<WishlistScreen> {
                                             style: TextStyle(
                                               decoration:
                                                   TextDecoration.lineThrough,
-                                              color: Colors.grey,
-                                              fontWeight: FontWeight.normal,
+                                              color: Colors.red,
+                                              decorationColor: Colors.red,
+                                              fontWeight: FontWeight.w500,
                                               fontSize: 14,
                                             ),
                                           ),
@@ -118,9 +119,9 @@ class WishlistScreenState extends State<WishlistScreen> {
                                     Text(
                                       'Availability: In Stock',
                                       style: const TextStyle(
-                                        fontSize: 15,
-                                        fontStyle: FontStyle.italic,
-                                        fontWeight: FontWeight.w500,
+                                        fontSize: 13,
+                                        fontStyle: FontStyle.normal,
+                                        fontWeight: FontWeight.w400,
                                         color: Color(0xFF204E2D),
                                       ),
                                     ),
@@ -156,7 +157,7 @@ class WishlistScreenState extends State<WishlistScreen> {
                                             'Are you sure you want to delete ${product.productName} from your wishlist?',
                                             style: TextStyle(
                                               fontSize: 16,
-                                              fontWeight: FontWeight.w500,
+                                              fontWeight: FontWeight.w400,
                                               color: Color(0xFF004D67),
                                             ),
                                           ),
@@ -179,7 +180,7 @@ class WishlistScreenState extends State<WishlistScreen> {
                                                 'Cancel',
                                                 style: TextStyle(
                                                   fontSize: 16,
-                                                  fontWeight: FontWeight.w700,
+                                                  fontWeight: FontWeight.w500,
                                                   color: Colors
                                                       .white, // Text color
                                                 ),
@@ -205,14 +206,14 @@ class WishlistScreenState extends State<WishlistScreen> {
                                                 UIUtils.showSnackbar(
                                                   context,
                                                   '${product.productName} removed from wishlist!',
-                                                  Colors.red,
+                                                  Colors.green,
                                                 );
                                               },
                                               child: const Text(
                                                 'Delete',
                                                 style: TextStyle(
                                                   fontSize: 16,
-                                                  fontWeight: FontWeight.w700,
+                                                  fontWeight: FontWeight.w500,
                                                   color: Colors
                                                       .white, // Text color
                                                 ),

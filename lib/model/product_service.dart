@@ -211,7 +211,7 @@ class ProductCard extends StatelessWidget {
                             UIUtils.showSnackbar(
                                 context,
                                 '${product.productName} removed from wishlist!',
-                                Colors.red);
+                                Colors.green);
                           } else {
                             wishlistManager.addToWishlist(product);
                             UIUtils.showSnackbar(

@@ -1,6 +1,7 @@
 import 'package:demo/model/product_service.dart';
 import 'package:demo/utils/snackbar_lib.dart';
 import 'package:demo/utils/wishlist_manager.dart';
+import 'package:demo/utils/cart_manager.dart';
 import 'package:demo/widgets/custom_bottom_nav_bar.dart';
 import 'package:demo/widgets/section_title.dart';
 import 'package:flutter/material.dart';
@@ -90,7 +91,7 @@ class ProductScreenState extends State<ProductScreen> {
                         Text(
                           widget.product.productName,
                           style: const TextStyle(
-                            fontSize: 26,
+                            fontSize: 24,
                             fontWeight: FontWeight.w600,
                             color: Color(0xFF004D67),
                           ),
@@ -162,7 +163,7 @@ class ProductScreenState extends State<ProductScreen> {
                         Text(
                           widget.product.shortDescription,
                           style: const TextStyle(
-                            fontSize: 20,
+                            fontSize: 18,
                             fontWeight: FontWeight.w500,
                             color: Color(0xFF004D67),
                           ),
@@ -195,7 +196,7 @@ class ProductScreenState extends State<ProductScreen> {
                                 hint: const Text(
                                   'Select a Size',
                                   style: TextStyle(
-                                    fontSize: 20,
+                                    fontSize: 18,
                                     fontWeight: FontWeight.w500,
                                     color: Color(0xFF004D67),
                                   ),
@@ -255,7 +256,7 @@ class ProductScreenState extends State<ProductScreen> {
                                       });
                                     },
                                     padding: const EdgeInsets.all(8.0),
-                                    iconSize: 20.0, // Icon size
+                                    iconSize: 30.0, // Icon size
                                   ),
                                 ),
                                 SizedBox(
@@ -263,13 +264,15 @@ class ProductScreenState extends State<ProductScreen> {
                                         8), // Space between the buttons and quantity
                                 // Quantity Text with fixed width
                                 Container(
-                                  width: 40, // Fixed width for quantity
+                                  width: 50,
+                                  height: 40, // Fixed width for quantity
                                   alignment: Alignment.center,
+                                  color: Colors.white,
                                   child: Text(
                                     '$quantity',
                                     style: const TextStyle(
                                       fontSize: 22,
-                                      fontWeight: FontWeight.w600,
+                                      fontWeight: FontWeight.w500,
                                       color: Color(0xFF004D67),
                                     ),
                                   ),
@@ -281,13 +284,14 @@ class ProductScreenState extends State<ProductScreen> {
                                 Container(
                                   decoration: BoxDecoration(
                                       color: Color(
-                                          0xFF004D67), // Button background color
+                                          0xFF204E2D), // Button background color
                                       shape: BoxShape.rectangle,
                                       borderRadius:
                                           BorderRadius.circular(10.0)),
                                   child: IconButton(
                                     icon: const Icon(
                                       Icons.add,
+                                      size: 30,
                                       color: Colors.white, // Icon color
                                     ),
                                     onPressed: () {
@@ -333,7 +337,7 @@ class ProductScreenState extends State<ProductScreen> {
                                 "Description",
                                 style: TextStyle(
                                   color: Color(0xFF004D67),
-                                  fontSize: 22,
+                                  fontSize: 20,
                                   fontWeight: FontWeight.w600,
                                 ),
                               ),
@@ -351,9 +355,9 @@ class ProductScreenState extends State<ProductScreen> {
                           widget.product.fullDescription,
                           textAlign: TextAlign.center,
                           style: const TextStyle(
-                              color: Colors.black87,
                               fontSize: 18,
-                              fontWeight: FontWeight.w500),
+                              color: Colors.black87,
+                              fontWeight: FontWeight.w400),
                         ),
                         SizedBox(height: 14),
                         Row(
@@ -385,7 +389,7 @@ class ProductScreenState extends State<ProductScreen> {
                                 "Shipping & Returns",
                                 style: TextStyle(
                                   color: Color(0xFF004D67),
-                                  fontSize: 22,
+                                  fontSize: 20,
                                   fontWeight: FontWeight.w600,
                                 ),
                               ),
@@ -403,9 +407,9 @@ class ProductScreenState extends State<ProductScreen> {
                           widget.product.shippingReturns,
                           textAlign: TextAlign.center,
                           style: const TextStyle(
-                              color: Colors.black87,
                               fontSize: 18,
-                              fontWeight: FontWeight.w500),
+                              color: Colors.black87,
+                              fontWeight: FontWeight.w400),
                         ),
                         SizedBox(height: 14),
                         Row(
@@ -437,7 +441,7 @@ class ProductScreenState extends State<ProductScreen> {
                                 "Reviews",
                                 style: TextStyle(
                                   color: Color(0xFF004D67),
-                                  fontSize: 22,
+                                  fontSize: 20,
                                   fontWeight: FontWeight.w600,
                                 ),
                               ),
@@ -478,7 +482,8 @@ class ProductScreenState extends State<ProductScreen> {
                                           review['review_date'] ?? '',
                                           style: const TextStyle(
                                               fontSize: 16,
-                                              color: Colors.black87,
+                                              color: Colors.blueGrey,
+                                              fontStyle: FontStyle.italic,
                                               fontWeight: FontWeight.w500),
                                         ),
                                       ],
@@ -532,8 +537,8 @@ class ProductScreenState extends State<ProductScreen> {
                   ),
 
                   // New Arrival Section
-                  SectionTitle(title: 'Sale Under 20\$', id: 3),
-                  ProductList(tagId: 3),
+                  SectionTitle(title: 'New Fashion', id: 2),
+                  ProductList(tagId: 2, count: 10),
                 ],
               ),
             ),
@@ -546,13 +551,44 @@ class ProductScreenState extends State<ProductScreen> {
         child: Row(
           children: [
             // Add to Cart Button
-            Expanded(
-              child: buildButton(
-                icon: Icons.shopping_cart_rounded,
-                label: 'Add To Cart',
-                backgroundColor: const Color(0xFF204E2D),
-                onPressed: () {},
-              ),
+            Consumer<CartManager>(
+              builder: (context, cartManager, child) {
+                // Use a default size if selectedSize is null
+                final currentSize =
+                    selectedSize ?? 'S'; // Default to 'S' if null
+                final isInCart =
+                    cartManager.isInCart(widget.product, size: currentSize);
+
+                return Expanded(
+                  child: buildButton(
+                    icon: Icons.shopping_cart_rounded,
+                    label: isInCart ? 'In Cart' : 'Add To Cart',
+                    backgroundColor: const Color(0xFF204E2D),
+                    onPressed: () {
+                      if (isInCart) {
+                        UIUtils.showSnackbar(
+                          context,
+                          '${widget.product.productName} is already in the cart!',
+                          Colors.red,
+                        );
+                      } else {
+                        cartManager.addToCart(
+                          widget.product,
+                          size: currentSize, // Example size
+                          quantity: quantity, // Default quantity
+                        );
+                        UIUtils.showSnackbar(
+                          context,
+                          '${widget.product.productName} added to cart!',
+                          Colors.green,
+                        );
+                      }
+                      // debugPrint("Cart Manager Contents:");
+                      // debugPrint("Current Cart: ${cartManager.cartItems}");
+                    },
+                  ),
+                );
+              },
             ),
             // Gap between the buttons
             SizedBox(width: 12), // Adjust the width for your desired gap
@@ -576,7 +612,7 @@ class ProductScreenState extends State<ProductScreen> {
                         UIUtils.showSnackbar(
                           context,
                           '${widget.product.productName} removed from wishlist!',
-                          Colors.red,
+                          Colors.green,
                         );
                       } else {
                         wishlistManager.addToWishlist(widget.product);
