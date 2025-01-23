@@ -1,3 +1,5 @@
+import 'package:demo/screens/cart_screen.dart';
+import 'package:demo/screens/checkout_screen.dart';
 import 'package:demo/utils/cart_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -41,6 +43,8 @@ class MyApp extends StatelessWidget {
         '/home': (context) => BaseLayout(),
         '/categories': (context) => CategoriesScreen(),
         '/wishlist': (context) => WishlistScreen(),
+        '/cart': (context) => CartScreen(),
+        '/checkout': (context) => CheckoutScreen(),
       },
     );
   }

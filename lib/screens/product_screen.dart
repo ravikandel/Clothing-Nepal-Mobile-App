@@ -554,10 +554,9 @@ class ProductScreenState extends State<ProductScreen> {
             Consumer<CartManager>(
               builder: (context, cartManager, child) {
                 // Use a default size if selectedSize is null
-                final currentSize =
-                    selectedSize ?? 'S'; // Default to 'S' if null
-                final isInCart =
-                    cartManager.isInCart(widget.product, size: currentSize);
+                final currentSize = selectedSize;
+                final isInCart = cartManager.isInCart(widget.product,
+                    size: currentSize ?? '');
 
                 return Expanded(
                   child: buildButton(
@@ -565,7 +564,14 @@ class ProductScreenState extends State<ProductScreen> {
                     label: isInCart ? 'In Cart' : 'Add To Cart',
                     backgroundColor: const Color(0xFF204E2D),
                     onPressed: () {
-                      if (isInCart) {
+                      if (currentSize == null) {
+                        // Show a message if size is not selected
+                        UIUtils.showSnackbar(
+                          context,
+                          'Please select a size before adding to the cart!',
+                          Colors.red,
+                        );
+                      } else if (isInCart) {
                         UIUtils.showSnackbar(
                           context,
                           '${widget.product.productName} is already in the cart!',
@@ -574,7 +580,7 @@ class ProductScreenState extends State<ProductScreen> {
                       } else {
                         cartManager.addToCart(
                           widget.product,
-                          size: currentSize, // Example size
+                          size: currentSize,
                           quantity: quantity, // Default quantity
                         );
                         UIUtils.showSnackbar(
@@ -583,8 +589,6 @@ class ProductScreenState extends State<ProductScreen> {
                           Colors.green,
                         );
                       }
-                      // debugPrint("Cart Manager Contents:");
-                      // debugPrint("Current Cart: ${cartManager.cartItems}");
                     },
                   ),
                 );

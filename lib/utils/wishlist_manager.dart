@@ -28,4 +28,9 @@ class WishlistManager extends ChangeNotifier {
   bool isInWishlist(Product product) {
     return _wishlist.any((p) => p.productId == product.productId);
   }
+
+  /// Calculates the total number of items in the wishlist.
+  int get totalItems {
+    return _wishlist.length; // Return the number of items in the wishlist
+  }
 }

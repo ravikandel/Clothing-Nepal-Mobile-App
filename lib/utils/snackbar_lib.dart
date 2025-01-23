@@ -14,4 +14,24 @@ class UIUtils {
       ),
     );
   }
+
+  // static void showSnackbarWithAction({
+  //   required BuildContext context,
+  //   required String message,
+  //   required Color backgroundColor,
+  //   required String actionLabel,
+  //   required VoidCallback action,
+  // }) {
+  //   ScaffoldMessenger.of(context).showSnackBar(
+  //     SnackBar(
+  //       content: Text(message),
+  //       backgroundColor: backgroundColor,
+  //       action: SnackBarAction(
+  //         label: actionLabel,
+  //         textColor: Colors.white,
+  //         onPressed: action,
+  //       ),
+  //     ),
+  //   );
+  // }
 }

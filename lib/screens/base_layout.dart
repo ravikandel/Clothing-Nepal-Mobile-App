@@ -1,6 +1,9 @@
 import 'package:demo/screens/cart_screen.dart';
 import 'package:demo/screens/wishlist_screen.dart';
+import 'package:demo/utils/cart_manager.dart';
+import 'package:demo/utils/wishlist_manager.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'home_screen.dart';
 import 'categories_screen.dart';
 
@@ -32,6 +35,8 @@ class _BaseLayoutState extends State<BaseLayout> {
 
   @override
   Widget build(BuildContext context) {
+    final cartItemCount = context.watch<CartManager>().totalItems;
+    final wishlistItemCount = context.watch<WishlistManager>().totalItems;
     return Scaffold(
       // Use IndexedStack for dynamic content change
       body: IndexedStack(
@@ -41,16 +46,58 @@ class _BaseLayoutState extends State<BaseLayout> {
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _selectedIndex,
         onTap: _onItemTapped,
-        items: const [
-          BottomNavigationBarItem(
+        items: [
+          const BottomNavigationBarItem(
               icon: Icon(Icons.home_rounded), label: 'Home'),
-          BottomNavigationBarItem(
+          const BottomNavigationBarItem(
               icon: Icon(Icons.grid_view_rounded), label: 'Categories'),
           BottomNavigationBarItem(
-              icon: Icon(Icons.favorite_rounded), label: 'Wishlist'),
+            icon: Stack(
+              clipBehavior: Clip.none,
+              children: [
+                const Icon(Icons.favorite_rounded),
+                if (wishlistItemCount > 0)
+                  Positioned(
+                    left: 15,
+                    bottom: 10,
+                    child: CircleAvatar(
+                      radius: 10,
+                      backgroundColor: Colors.red,
+                      child: Text(
+                        '$wishlistItemCount',
+                        style:
+                            const TextStyle(fontSize: 10, color: Colors.white),
+                      ),
+                    ),
+                  ),
+              ],
+            ),
+            label: 'Wishlist',
+          ),
           BottomNavigationBarItem(
-              icon: Icon(Icons.shopping_cart_rounded), label: 'Cart'),
-          BottomNavigationBarItem(
+            icon: Stack(
+              clipBehavior: Clip.none,
+              children: [
+                const Icon(Icons.shopping_cart_rounded),
+                if (cartItemCount > 0)
+                  Positioned(
+                    left: 15,
+                    bottom: 10,
+                    child: CircleAvatar(
+                      radius: 10,
+                      backgroundColor: Colors.red,
+                      child: Text(
+                        '$cartItemCount',
+                        style:
+                            const TextStyle(fontSize: 10, color: Colors.white),
+                      ),
+                    ),
+                  ),
+              ],
+            ),
+            label: 'Cart',
+          ),
+          const BottomNavigationBarItem(
               icon: Icon(Icons.person_rounded), label: 'Profile'),
         ],
         selectedItemColor: Color(0xFF204E2D),

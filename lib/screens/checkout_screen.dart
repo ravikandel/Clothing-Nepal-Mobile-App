@@ -5,14 +5,14 @@ import 'package:demo/widgets/custom_bottom_nav_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-class CartScreen extends StatefulWidget {
-  const CartScreen({super.key});
+class CheckoutScreen extends StatefulWidget {
+  const CheckoutScreen({super.key});
 
   @override
-  CartScreenState createState() => CartScreenState();
+  CheckoutScreenState createState() => CheckoutScreenState();
 }
 
-class CartScreenState extends State<CartScreen> {
+class CheckoutScreenState extends State<CheckoutScreen> {
   Future<void> _refreshData() async {
     await Future.delayed(const Duration(seconds: 2));
     if (mounted) {
@@ -24,7 +24,7 @@ class CartScreenState extends State<CartScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color(0xFFFAFAFA),
-      appBar: CustomAppBar(title: 'My Cart'),
+      appBar: CustomAppBar1(title: 'Checkout'),
       body: RefreshIndicator(
         onRefresh: _refreshData,
         child: Consumer<CartManager>(
