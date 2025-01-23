@@ -40,7 +40,9 @@ class MyApp extends StatelessWidget {
         '/signin': (context) => SignInScreen(),
         '/signup': (context) => SignUpScreen(),
         '/reset-password': (context) => ResetPasswordScreen(),
-        '/home': (context) => BaseLayout(),
+        '/home': (context) => BaseLayout(
+              selectedIndex: 0,
+            ),
         '/categories': (context) => CategoriesScreen(),
         '/wishlist': (context) => WishlistScreen(),
         '/cart': (context) => CartScreen(),

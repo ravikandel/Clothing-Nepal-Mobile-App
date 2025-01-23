@@ -119,10 +119,10 @@ class WishlistScreenState extends State<WishlistScreen> {
                                     Text(
                                       'Availability: In Stock',
                                       style: const TextStyle(
-                                        fontSize: 13,
-                                        fontStyle: FontStyle.normal,
-                                        fontWeight: FontWeight.w400,
-                                        color: Color(0xFF204E2D),
+                                        fontSize: 14,
+                                        fontStyle: FontStyle.italic,
+                                        fontWeight: FontWeight.w500,
+                                        color: Colors.black45,
                                       ),
                                     ),
                                   ],

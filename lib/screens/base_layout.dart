@@ -8,14 +8,16 @@ import 'home_screen.dart';
 import 'categories_screen.dart';
 
 class BaseLayout extends StatefulWidget {
-  const BaseLayout({super.key});
+  final int selectedIndex; // Accept selected index
+
+  const BaseLayout({super.key, required this.selectedIndex});
 
   @override
   State<BaseLayout> createState() => _BaseLayoutState();
 }
 
 class _BaseLayoutState extends State<BaseLayout> {
-  int _selectedIndex = 0;
+  late int _selectedIndex;
 
   // List of widgets for the different pages
   final List<Widget> _screens = [
@@ -25,6 +27,13 @@ class _BaseLayoutState extends State<BaseLayout> {
     CartScreen(), // Index 3
     // ProfileScreen(), // Index 4
   ];
+
+  @override
+  void initState() {
+    super.initState();
+    _selectedIndex =
+        widget.selectedIndex; // Set the initial index from the passed argument
+  }
 
   // Handle navigation bar item tap
   void _onItemTapped(int index) {

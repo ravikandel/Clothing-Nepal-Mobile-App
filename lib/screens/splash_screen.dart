@@ -30,7 +30,7 @@ class SplashScreenState extends State<SplashScreen>
     Timer(const Duration(seconds: 2), () {
       _animationController.forward().whenComplete(() {
         // Navigate to Sign In screen
-        Navigator.pushReplacementNamed(context, '/home');
+        Navigator.pushReplacementNamed(context, '/signin');
       });
     });
   }

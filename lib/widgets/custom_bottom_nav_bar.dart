@@ -1,3 +1,4 @@
+import 'package:demo/screens/base_layout.dart';
 import 'package:demo/utils/cart_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -51,6 +52,9 @@ class CustomAppBar1 extends StatelessWidget implements PreferredSizeWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Get the dynamic cart item count from CartManager
+    final cartItemCount = context.watch<CartManager>().totalItems;
+
     return AppBar(
       backgroundColor: const Color(0xFFFAFAFA), // Fixed background color
       elevation: 0, // Remove shadow
@@ -74,11 +78,66 @@ class CustomAppBar1 extends StatelessWidget implements PreferredSizeWidget {
               fontWeight: FontWeight.w600,
             ),
           ),
-          IconButton(
-            icon: const Icon(Icons.notifications_rounded,
-                color: Color(0xFF004D67)),
-            iconSize: 30.0,
-            onPressed: () {},
+          // Cart and Share icons
+          Row(
+            children: [
+              // Share icon
+              IconButton(
+                icon: const Icon(Icons.notifications_rounded,
+                    color: Color(0xFF004D67)),
+                iconSize: 30.0,
+                onPressed: () {
+                  // Handle share functionality
+                },
+              ),
+              // Cart icon with badge
+              Stack(
+                clipBehavior: Clip.none, // Allow for badge overlap
+                children: [
+                  IconButton(
+                    icon: const Icon(Icons.shopping_cart_rounded,
+                        color: Color(0xFF004D67)),
+                    iconSize: 30.0,
+                    onPressed: () {
+                      // Navigate to BaseLayout and set the selected index to 3 (Cart screen)
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) =>
+                              BaseLayout(selectedIndex: 3), // Pass the index
+                        ),
+                      );
+                    },
+                  ),
+                  // Item count badge
+                  if (cartItemCount > 0)
+                    Positioned(
+                      right: 6,
+                      top: 6,
+                      child: Container(
+                        padding: const EdgeInsets.all(2.0),
+                        decoration: BoxDecoration(
+                          color: Colors.red,
+                          borderRadius: BorderRadius.circular(10),
+                        ),
+                        constraints: const BoxConstraints(
+                          minWidth: 18,
+                          minHeight: 18,
+                        ),
+                        child: Text(
+                          '$cartItemCount',
+                          style: const TextStyle(
+                            color: Colors.white,
+                            fontSize: 12,
+                            fontWeight: FontWeight.bold,
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                      ),
+                    ),
+                ],
+              ),
+            ],
           ),
         ],
       ),
@@ -145,12 +204,13 @@ class CustomAppBar2 extends StatelessWidget implements PreferredSizeWidget {
                         color: Color(0xFF004D67)),
                     iconSize: 30.0,
                     onPressed: () {
-                      debugPrint('a');
                       // Navigate to BaseLayout and set the selected index to 3 (Cart screen)
-                      Navigator.pushNamed(
+                      Navigator.push(
                         context,
-                        '/home', // The route for BaseLayout
-                        arguments: 3, // Pass the index for the Cart screen
+                        MaterialPageRoute(
+                          builder: (context) =>
+                              BaseLayout(selectedIndex: 3), // Pass the index
+                        ),
                       );
                     },
                   ),

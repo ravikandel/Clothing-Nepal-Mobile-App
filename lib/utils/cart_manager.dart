@@ -79,9 +79,13 @@ class CartManager extends ChangeNotifier {
   }
 
   /// Calculates the total number of items in the cart.
+  // int get totalItems {
+  //   return _cart.fold(
+  //       0, (int count, item) => count + (item['product_quantity'] as int));
+  // }
+
   int get totalItems {
-    return _cart.fold(
-        0, (int count, item) => count + (item['product_quantity'] as int));
+    return _cart.length;
   }
 
   /// Clears all items from the cart.
