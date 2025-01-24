@@ -238,11 +238,10 @@ class ProductScreenState extends State<ProductScreen> {
                                 // Minus Button
                                 Container(
                                   decoration: BoxDecoration(
-                                      color: Color(
-                                          0xFF004D67), // Button background color
-                                      shape: BoxShape.rectangle,
-                                      borderRadius:
-                                          BorderRadius.circular(10.0)),
+                                    color: Color(
+                                        0xFF004D67), // Button background color
+                                    shape: BoxShape.circle,
+                                  ),
                                   child: IconButton(
                                     icon: const Icon(
                                       Icons.remove,
@@ -265,9 +264,18 @@ class ProductScreenState extends State<ProductScreen> {
                                 // Quantity Text with fixed width
                                 Container(
                                   width: 50,
-                                  height: 40, // Fixed width for quantity
+                                  height: 40,
                                   alignment: Alignment.center,
-                                  color: Colors.white,
+                                  decoration: BoxDecoration(
+                                    color: Colors.white, // Background color
+                                    border: Border.all(
+                                      color: const Color(
+                                          0xFFD9D9D9), // Border color
+                                      width: 1.0, // Border width
+                                    ),
+                                    borderRadius: BorderRadius.circular(
+                                        10.0), // Rounded corners for the border
+                                  ),
                                   child: Text(
                                     '$quantity',
                                     style: const TextStyle(
@@ -283,11 +291,10 @@ class ProductScreenState extends State<ProductScreen> {
                                 // Plus Button
                                 Container(
                                   decoration: BoxDecoration(
-                                      color: Color(
-                                          0xFF204E2D), // Button background color
-                                      shape: BoxShape.rectangle,
-                                      borderRadius:
-                                          BorderRadius.circular(10.0)),
+                                    color: Color(
+                                        0xFF204E2D), // Button background color
+                                    shape: BoxShape.circle,
+                                  ),
                                   child: IconButton(
                                     icon: const Icon(
                                       Icons.add,

@@ -89,11 +89,11 @@ class CartScreenState extends State<CartScreen> {
                                         Text(
                                           product.productName,
                                           style: const TextStyle(
-                                              fontSize: 16,
+                                              fontSize: 19,
                                               color: Color(0xFF004D67),
                                               fontWeight: FontWeight.w600),
                                         ),
-                                        const SizedBox(height: 5),
+                                        const SizedBox(height: 2),
                                         Row(
                                           mainAxisAlignment:
                                               MainAxisAlignment.start,
@@ -105,7 +105,7 @@ class CartScreenState extends State<CartScreen> {
                                                 style: const TextStyle(
                                                   color: Color(0xFF204E2D),
                                                   fontWeight: FontWeight.w600,
-                                                  fontSize: 16,
+                                                  fontSize: 18,
                                                 ),
                                               ),
                                               if (product.actualPrice > 0.0)
@@ -120,17 +120,17 @@ class CartScreenState extends State<CartScreen> {
                                                   color: Colors.red,
                                                   decorationColor: Colors.red,
                                                   fontWeight: FontWeight.w600,
-                                                  fontSize: 14,
+                                                  fontSize: 16,
                                                 ),
                                               ),
                                             const SizedBox(width: 10),
                                             Text(
                                               '|  Size: $productSize',
                                               style: const TextStyle(
-                                                fontSize: 15,
+                                                fontSize: 16,
                                                 fontStyle: FontStyle.normal,
                                                 fontWeight: FontWeight.w600,
-                                                color: Color(0xFF204E2D),
+                                                color: Colors.black45,
                                               ),
                                             ),
                                           ],
@@ -142,9 +142,7 @@ class CartScreenState extends State<CartScreen> {
                                             Container(
                                               decoration: BoxDecoration(
                                                 color: const Color(0xFF004D67),
-                                                shape: BoxShape.rectangle,
-                                                borderRadius:
-                                                    BorderRadius.circular(10.0),
+                                                shape: BoxShape.circle,
                                               ),
                                               width: 40,
                                               height: 40,
@@ -172,15 +170,15 @@ class CartScreenState extends State<CartScreen> {
                                             ),
                                             const SizedBox(width: 8),
                                             Container(
-                                              width: 40,
+                                              width: 50,
                                               height: 40,
                                               alignment: Alignment.center,
                                               decoration: BoxDecoration(
                                                 color: Colors
                                                     .white, // Background color
                                                 border: Border.all(
-                                                  color: Colors
-                                                      .grey, // Border color
+                                                  color: const Color(
+                                                      0xFFD9D9D9), // Border color
                                                   width: 1.0, // Border width
                                                 ),
                                                 borderRadius: BorderRadius.circular(
@@ -200,9 +198,7 @@ class CartScreenState extends State<CartScreen> {
                                             Container(
                                               decoration: BoxDecoration(
                                                 color: const Color(0xFF204E2D),
-                                                shape: BoxShape.rectangle,
-                                                borderRadius:
-                                                    BorderRadius.circular(10.0),
+                                                shape: BoxShape.circle,
                                               ),
                                               width: 40,
                                               height: 40,
@@ -355,6 +351,14 @@ class CartScreenState extends State<CartScreen> {
                               Container(
                                 padding: const EdgeInsets.symmetric(
                                     vertical: 10, horizontal: 15),
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(10.0),
+                                  border: Border.all(
+                                    color: const Color(
+                                        0xFFD9D9D9), // Adjust border color as needed
+                                    width: 1.0,
+                                  ),
+                                ),
                                 child: Row(
                                   mainAxisAlignment:
                                       MainAxisAlignment.spaceBetween,

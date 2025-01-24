@@ -80,11 +80,11 @@ class WishlistScreenState extends State<WishlistScreen> {
                                     Text(
                                       product.productName,
                                       style: const TextStyle(
-                                          fontSize: 16,
+                                          fontSize: 19,
                                           color: Color(0xFF004D67),
                                           fontWeight: FontWeight.w600),
                                     ),
-                                    const SizedBox(height: 5),
+                                    const SizedBox(height: 2),
                                     Row(
                                       mainAxisAlignment:
                                           MainAxisAlignment.start,
@@ -95,7 +95,7 @@ class WishlistScreenState extends State<WishlistScreen> {
                                             style: TextStyle(
                                               color: Color(0xFF204E2D),
                                               fontWeight: FontWeight.w600,
-                                              fontSize: 16,
+                                              fontSize: 18,
                                             ),
                                           ),
                                           if (product.actualPrice > 0.0)
@@ -109,8 +109,8 @@ class WishlistScreenState extends State<WishlistScreen> {
                                                   TextDecoration.lineThrough,
                                               color: Colors.red,
                                               decorationColor: Colors.red,
-                                              fontWeight: FontWeight.w500,
-                                              fontSize: 14,
+                                              fontWeight: FontWeight.w600,
+                                              fontSize: 16,
                                             ),
                                           ),
                                       ],
@@ -119,7 +119,7 @@ class WishlistScreenState extends State<WishlistScreen> {
                                     Text(
                                       'Availability: In Stock',
                                       style: const TextStyle(
-                                        fontSize: 14,
+                                        fontSize: 16,
                                         fontStyle: FontStyle.italic,
                                         fontWeight: FontWeight.w500,
                                         color: Colors.black45,

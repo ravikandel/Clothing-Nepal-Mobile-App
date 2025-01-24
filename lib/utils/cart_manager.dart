@@ -69,7 +69,20 @@ class CartManager extends ChangeNotifier {
         item['product_size'] == size);
   }
 
+  double get discount {
+    return 10.0;
+  }
+
+  double get shipping {
+    return 5.0;
+  }
+
+  String get discountCode {
+    return 'CNPXSF';
+  }
+
   /// Calculates the total price of all items in the cart.
+
   double get totalPrice {
     return _cart.fold(
       0.0,
