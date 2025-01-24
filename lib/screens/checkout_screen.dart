@@ -15,6 +15,8 @@ class CheckoutScreen extends StatefulWidget {
 }
 
 class CheckoutScreenState extends State<CheckoutScreen> {
+  // final _formKey = GlobalKey<FormState>();
+
   final TextEditingController _couponController = TextEditingController();
   final TextEditingController _fnameController = TextEditingController();
   final TextEditingController _lnameController = TextEditingController();
@@ -597,6 +599,10 @@ class CheckoutScreenState extends State<CheckoutScreen> {
                   width: double.infinity, // Full-width button
                   child: ElevatedButton(
                     onPressed: () {
+                      //if (_formKey.currentState!.validate()) {
+                      // final email = _fnameController.text.trim();
+                      // final password = passwordController.text.trim();
+
                       // Access the CartManager and clear the cart
                       final cartManager =
                           Provider.of<CartManager>(context, listen: false);
@@ -606,8 +612,12 @@ class CheckoutScreenState extends State<CheckoutScreen> {
                         context,
                         '/success',
                         arguments:
-                            'Your order placed successfully!', // Passing the message
+                            'Order placed successfully!', // Passing the message
                       );
+                      // } else {
+                      //   UIUtils.showSnackbar(
+                      //       context, 'Checkout failed!', Colors.red);
+                      // }
                     },
                     style: ElevatedButton.styleFrom(
                       padding: const EdgeInsets.symmetric(vertical: 15),

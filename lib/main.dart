@@ -1,5 +1,7 @@
 import 'package:demo/screens/cart_screen.dart';
 import 'package:demo/screens/checkout_screen.dart';
+import 'package:demo/screens/profile_screen.dart';
+import 'package:demo/screens/searchshop_screen.dart';
 import 'package:demo/utils/cart_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -46,7 +48,9 @@ class MyApp extends StatelessWidget {
         '/categories': (context) => CategoriesScreen(),
         '/wishlist': (context) => WishlistScreen(),
         '/cart': (context) => CartScreen(),
+        '/profile': (context) => ProfileScreen(),
         '/checkout': (context) => CheckoutScreen(),
+        '/shop': (context) => SearchShopScreen(),
       },
     );
   }
